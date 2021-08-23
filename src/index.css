@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+	font-family: "CaviarDreams";
+	font-style: normal;
+	font-weight: normal;
+	src: local("CaviarDreams"),
+	 url("./fonts/caviar_dreams/CaviarDreams.ttf") format("truetype");
+	}
+  @font-face {
+    font-family: "CaviarDreams_Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("CaviarDreams"),
+     url("./fonts/caviar_dreams/CaviarDreams_Bold.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "CaviarDreams_BoldItalic";
+      font-style: normal;
+      font-weight: normal;
+      src: local("CaviarDreams"),
+       url("./fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: "CaviarDreams_Italic";
+        font-style: normal;
+        font-weight: normal;
+        src: local("CaviarDreams"),
+         url("./fonts/caviar_dreams/CaviarDreams_Italic.ttf") format("truetype");
+        }
