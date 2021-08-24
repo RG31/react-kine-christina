@@ -23,7 +23,9 @@ button:focus,
 form-control:focus
 {
     outline: none;
+	outline: transparent;
 }
+/* CHROME / preferences / apparence / param avancées / mettre en surbrillance rapidement l'objet ciblé => OFF */
 
 body, html {
 	font-family: 'CaviarDreams', 'Open Sans', sans-serif;
@@ -156,10 +158,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	// RG31 border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	// RG31 background-color: #608dfd;
 }
 
 .section-title {
@@ -693,7 +695,8 @@ border-radius: 40px;
 	padding: 30px 0;
 }
 #footer p {
-	color: #888;
+	//color: #888;
+	color: rgb(44, 43, 43);
 	font-size: 14px;
 }
 #footer a {
@@ -766,3 +769,12 @@ margin-top: -30px;
 
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+form-control:focus
+{
+    outline: none;
+	outline: transparent;
+}

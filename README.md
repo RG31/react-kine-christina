@@ -4,7 +4,7 @@
 # Modèle site vitrine en React JS
 
 
-### <a href="https://react-landing-page-template.herokuapp.com">DÉMO EN DIRECT</a>
+### <a href="https://kine-christina-grillet.netlify.app/">DÉMO EN DIRECT</a>
 
 ## La description
 Il s'agit d'un modèle site vitrine (Mobile First Design) basé sur ReactJS, adapté à une entreprise/un service en démarrage. La conception est inspirée d'un modèle de <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
