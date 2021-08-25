@@ -779,14 +779,21 @@ label {
 
 @media (max-width: 768px) {
   /* @RG31*/
-  /* Header Section  => TON SITE VITRINE */
   h2 {
     font-weight: 400;
   }
 
   .intro h1 {
     font-size: 55px;
-    margin: 0px;
+  }
+
+  /* Header Section  => TON SITE VITRINE */
+  #header .intro-text {
+    padding-top: 150px;
+  }
+
+  #header .intro p {
+    margin-bottom: 40px;
   }
 
   /* Navigation */
