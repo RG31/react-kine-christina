@@ -1,4 +1,9 @@
+//npm i react-media-hook --save
+import { useMediaPredicate } from "react-media-hook";
+
 export const Services = (props) => {
+  const smallerThan768 = useMediaPredicate("(max-width: 768px)");
+  console.log ("smallerThan768",smallerThan768)
   return (
     <div id='services' className='text-center'>
       <div className='container'>
@@ -17,7 +22,18 @@ export const Services = (props) => {
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <hr></hr>
-                    <p>{d.text}</p>
+                    {smallerThan768 && 
+                    <details> 
+                      <summary>
+                         <span id="open"> Détails ...</span>
+                        <span id="close"> Fermer ...</span>
+                      </summary>
+                        <p>{d.text}</p>
+                    </details>
+                    }
+                     {!smallerThan768 && 
+                     <p>{d.text}</p>
+                        }   
                   </div>
                 </div>
               ))

@@ -439,6 +439,82 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-radius: 25px;
 }
 
+#services .service-desc p {
+  text-align: center;
+}
+
+#services .service-desc span {
+  font-size: 12px;
+}
+
+/* ---read more -- */
+#services details {
+  position: relative;
+  display: inline;
+}
+
+#services details summary {
+  display: block;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bolder;
+  border: solid;
+  background-color: #f5ca3eba;
+  border-color: #f5ca3eba;
+  border-radius: 60px 0px 60px 0px;
+  padding: 10px;
+  box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
+  line-height: 0px;
+}
+
+#services details summary:focus {
+  outline: none;
+}
+
+#services details[open] {
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  animation: open linear;
+}
+
+#services details[open] summary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#services details #open {
+  padding-left: 5px;
+  text-align: middle;
+}
+
+#services details #open:after {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  padding-left: 8px;
+  content: "»";
+  transform: rotate(90deg);
+}
+
+#services details[open] #open {
+  display: none;
+}
+
+#services details #close {
+  display: none;
+}
+
+#services details[open] #close {
+  display: block;
+}
+
+::-webkit-details-marker {
+  display: none;
+}
+
+/* ---end read more -- */
 /* Portfolio Section => GALLERIE */
 #portfolio {
   padding: 100px 0;
