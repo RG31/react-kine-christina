@@ -847,6 +847,23 @@ label {
     margin-left: 60px;
     margin-top: 0px;
   }
+
+  /* Portfolio Section => GALLERIE */
+  #portfolio {
+    padding: 100px 0;
+  }
+
+  .portfolio-item {
+    margin: 1px -15px 0 -14px;
+    padding: 0;
+  }
+
+  .portfolio-item .hover-bg {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10;
+    border-radius: 0px 0px 0px 0px;
+  }
 }
 input:focus,
 select:focus,
