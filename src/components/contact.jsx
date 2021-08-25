@@ -211,10 +211,7 @@ export const Contact = (props) => {
         <div className='container text-center'>
           <p>
             &copy; 2021 React Site Vitrine. Design by @RG31 {' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-              Responsive HTML website templates built with Bootstrap
-            </a>
+              Responsive website built with Bootstrap
           </p>
         </div>
       </div>

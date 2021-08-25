@@ -101,6 +101,15 @@ hr {
 	padding: 15px;
 	transition: all 0.8s;
 }
+
+/* Navigation */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
+}
+.navbar-collapse {
+    //padding-left: 180;
+    text-align: right;
+}
 #menu.navbar-default {
 	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
@@ -160,10 +169,6 @@ hr {
 	background-color: #fff;
 	// RG31 border-color: #608dfd;
 }
-.navbar-default .navbar-toggle:hover>.icon-bar {
-	// RG31 background-color: #608dfd;
-}
-
 .section-title {
 	margin-bottom: 70px;
 }
@@ -721,17 +726,15 @@ h2{
 #header .intro p {
 	margin-bottom: 40px;	
 }
-/* Navigation */
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	/*background-color: $buton-header-gradient-2;*/
-background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
-}
 /* Features Section  => PRATIQUES */
 #features {
 margin-top: -30px;
 }
-.section-title {
+#features .section-title {
 	margin-bottom: 35px;
+}
+#features p {
+    margin: 15 0 40px;
 }
 /* Features Section  => CONTACT */
 #contact .form-check-link {
