@@ -103,9 +103,7 @@ hr {
 }
 
 /* Navigation */
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
-}
+
 .navbar-collapse {
     //padding-left: 180;
     text-align: right;
@@ -311,6 +309,7 @@ font-size: 18px;
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	//text-align: center;
 }
 #about h2::after {
 	position: absolute;
@@ -320,6 +319,7 @@ font-size: 18px;
 	width: 60px;
 	bottom: 0;
 	left: 0;
+	right: 0;
 }
 #about .about-text li {
 	margin-bottom: 6px;
@@ -719,6 +719,10 @@ h2{
 .intro h1 {
 	font-size: 55px;	
 }
+/* Header Navigation */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
+	}
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
     padding-top: 150px;

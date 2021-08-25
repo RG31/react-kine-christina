@@ -104,10 +104,6 @@ hr {
 }
 
 /* Navigation */
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;
-}
-
 .navbar-collapse {
   text-align: right;
 }
@@ -345,6 +341,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   width: 60px;
   bottom: 0;
   left: 0;
+  right: 0;
 }
 
 #about .about-text li {
@@ -794,6 +791,11 @@ label {
 
   .intro h1 {
     font-size: 55px;
+  }
+
+  /* Header Navigation */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;
   }
 
   /* Header Section  => TON SITE VITRINE */
