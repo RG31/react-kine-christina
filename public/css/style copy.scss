@@ -99,7 +99,7 @@ hr {
 /* Navigation */
 #menu {
 	padding: 15px;
-	transition: all 0.8s ease-out;
+	transition: all 0.8s;
 }
 
 /* Navigation */
@@ -141,7 +141,7 @@ hr {
 	height: 2px;
 	background: linear-gradient(to right, #eea5ea 0%, #fb5cee 100%);
 	content: "";
-	transition: width 0.2s ease-out;
+	transition: width 0.2s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
@@ -158,76 +158,15 @@ hr {
 	height: 2px !important;
 	background: linear-gradient(to right,  #a5eead 0%, #fb5cee 100%) !important;
 	content: "" !important;
-	transition: width 0.2s ease-out !important;
+	transition: width 0.2s !important;
 }
 .navbar-toggle {
 	border-radius: 0;
-}
-
-/* ANIMATED X */
-.navbar-toggle.x .icon-bar:nth-of-type(1) {
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-webkit-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
-	transform-origin: 10% 10%;
-}
-
-.navbar-toggle.x .icon-bar:nth-of-type(2) {
-	opacity: 0;
-	filter: alpha(opacity=0);
-}
-
-.navbar-toggle.x .icon-bar:nth-of-type(3) {
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	-webkit-transform-origin: 10% 90%;
-	-ms-transform-origin: 10% 90%;
-	transform-origin: 10% 90%;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
 	// RG31 border-color: #608dfd;
 }
-/* ANIMATED X */
-.navbar-toggle.x .icon-bar:nth-of-type(1) {
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-webkit-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
-	transform-origin: 10% 10%;
-}
-.navbar-toggle.x .icon-bar:nth-of-type(2) {
-	opacity: 0;
-	filter: alpha(opacity=0);
-}
-.navbar-toggle.x .icon-bar:nth-of-type(3) {
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	-webkit-transform-origin: 10% 90%;
-	-ms-transform-origin: 10% 90%;
-	transform-origin: 10% 90%;
-}
-/* ANIMATED X COLLAPSED */
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(1) {
-	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
-	transform: rotate(0);
-}
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(2) {
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-.navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
-	-webkit-transform: rotate(0);
-	-ms-transform: rotate(0);
-	transform: rotate(0);
-}
-/* END ANIMATED X */
 .section-title {
 	margin-bottom: 70px;
 }
@@ -370,7 +309,7 @@ font-size: 18px;
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	//text-align: center;
+	text-align: center;
 }
 #about h2::after {
 	position: absolute;
@@ -379,7 +318,8 @@ font-size: 18px;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
-	left: 0;
+	margin-left: -30px;
+	left: 50%;
 }
 #about .about-text li {
 	margin-bottom: 6px;
@@ -400,17 +340,15 @@ font-size: 18px;
 	//margin-top: 10px;
 	//margin-bottom: 10px;
 	margin: auto;
-	padding: auto;
 	background: #fff;
 	border-right: 0;
-	box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+	border-radius: 0 40px;
 	margin-bottom: 40px;
-	border-radius: 10px;
 }
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
-
 }
 /* Services Section => SOINS */
 #services {
