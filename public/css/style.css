@@ -1003,6 +1003,33 @@ label {
     margin-top: 0px;
   }
 
+  .hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: 0%;
+    padding: 30% 0 0 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s;
+  }
+
+  .hover-bg .hover-text > h4 {
+    font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
+    opacity: 1;
+    background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
+    color: #fff;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
   /* Portfolio Section => GALLERIE */
   #portfolio {
     padding: 100px 0;
@@ -1011,13 +1038,6 @@ label {
   .portfolio-item {
     margin: 1px -15px 0 -14px;
     padding: 0;
-  }
-
-  .portfolio-item .hover-bg {
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 10;
-    border-radius: 0px 0px 0px 0px;
   }
 }
 input:focus,

@@ -26,7 +26,7 @@ export const Gallery = (props) => {
                     <img
                       src='img/portfolio/kine_SMALL.jpg'
                       className='img-responsive'
-                      alt='Project Title'
+                      alt='ccc '
                     />{' '}
                   </a>{' '}
                 </div>
