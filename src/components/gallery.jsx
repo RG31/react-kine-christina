@@ -3,7 +3,7 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallerie</h2>
+          <h2>Galerie</h2>
           <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
