@@ -1,10 +1,9 @@
 
 ##### @RG31
 
-# kine-christina
+# kine-christine
 
-
-### <a href="https://kine-christina-grillet.netlify.app/">DÉMO EN DIRECT</a>
+### <a href="https://art-de-guerir.netlify.app/">DÉMO EN DIRECT</a>
 
 ## La description
 Il s'agit d'un site vitrine (Mobile First Design) basé sur ReactJS, pour les kiné et/ou osthéopathes.
@@ -24,4 +23,3 @@ On peut également changer de style en modifiant les fichiers ```public/css```.
 ##### CSS gratuit
 <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
 
-##### @RG31# react-kine-christina
