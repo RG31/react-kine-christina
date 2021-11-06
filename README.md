@@ -1,14 +1,13 @@
 
 ##### @RG31
 
-# Modèle site vitrine en React JS
+# kine-christina
 
 
 ### <a href="https://kine-christina-grillet.netlify.app/">DÉMO EN DIRECT</a>
 
 ## La description
-Il s'agit d'un modèle site vitrine (Mobile First Design) basé sur ReactJS, adapté à une entreprise/un service en démarrage. La conception est inspirée d'un modèle de <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-Toutes les données « visuelles » peuvent être facilement modifiées dans le fichier data.json.
+Il s'agit d'un site vitrine (Mobile First Design) basé sur ReactJS, pour les kiné et/ou osthéopathes.
 
 ## GO!
 ### 1. Préparatifs
