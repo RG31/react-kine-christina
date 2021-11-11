@@ -87,30 +87,14 @@
             "name": "Johnathan Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
-        }
-    ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "nom": "Christine Grillet",
+        "address": "16 Pass. Orée de la Ramée 31170 Tournefeuille",
+        "phone": "06 10 03 51 97",
+        "email": "christina.grillet@neuf.fr",
+        "ref1" : "DE kinésithérapie diplômé KULeuven Belgique 1987",
+        "ref2" : "Ostéopathie Thérapie Manuelle diplômé UL bruxelles 1991",
+        "ref3" : "Énergétique Chinoise F.L.E.T.C 2010",
         "facebook": "#page-top",
         "twitter": "#page-top",
         "youtube": "#page-top"

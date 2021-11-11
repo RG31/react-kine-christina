@@ -315,12 +315,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 32px;
 	margin: 0 auto;
-	margin-bottom: 80px;
+
 }
 .intro a {
 	font-family: CaviarDreams_Bold;
 	text-transform: none;
 	font-size: 15px;
+}
+#header .intro p {
+	margin-bottom: 40px;	
 }
 /* Features Section  => PRATIQUES */
 #features {
@@ -639,35 +642,17 @@ font-size: 18px;
 	display: table;
 	width: 100%;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
+	//background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
-#contact .form-check {
-	padding-block: 10px;
-	margin-bottom: 40px;
-	padding-left: 30px;
-	border-radius: 20px;
-	background: #0000008c;
-background-image: linear-gradient(to left, #eab4eaf7 0%, #ff63ea21 100%);
-box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
-}
-#contact .form-check-label {
-	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
-	font-size: 13px;
-	//padding-right: 10px;
-	padding: 0px;
-	color: white;
-	margin: 5px;
+
+.new-line {
+	white-space: pre-line;
   }
-#contact .form-check-link {
-	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
-	font-size: 12px;
-	text-decoration: underline;
-	margin: 5px;
-}
+
 #contact .thanks {
 	font-family: "CaviarDreams", "Open Sans", sans-serif;
 	font-size: 15px;
@@ -703,27 +688,14 @@ box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
 	padding-bottom: 20px;
 	font-weight: 400;
 	font-weight: bold;
-	border-width:1px 0px 1px 0px;
+	border-width:0px 0px 1px 0px;
 	border-style:solid dotted;
 	border-color: white;
 	padding: 10px;
-
 }
 #contact p {
 	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
 	text-shadow:10px 10px 20px black;
-}
-#contact .text-danger {
-	color: #cc0033;
-	text-align: left;
-}
-#contact .btn-custom {
-background: #0000008c;
-background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
-}
-#contact .btn-custom:hover {
-background-image: linear-gradient(to right, #991f99f7 0%, #ff63ea21 100%);
 }
 label {
 	font-size: 12px;
@@ -731,47 +703,10 @@ label {
 	font-family: 'Open Sans', sans-serif;
 	//float: left;
 }
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 16px;
-	line-height: 1.42857143;
-	color: #444;
-	background-color: #fff;
-	background-image: none;
-	border: 1px solid #ddd;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-	/* RG31 */
-	border-radius: 30px ;
-}
-#contact .form-control:focus {
-	border-color: #999;
-	outline: none;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #777;
-}
-.form-control:-moz-placeholder {
-color: #777;
-}
-.form-control::-moz-placeholder {
-color: #777;
-}
-.form-control:-ms-input-placeholder {
-color: #777;
-}
 #contact .contact-item {
 	margin-top: 20px;
 	margin-left: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
@@ -781,36 +716,18 @@ color: #777;
 #contact .contact-item i.fa {
 	margin-right: 5px;
 }
-
 #contact .contact-info {
-background: linear-gradient(to left, #f9f7f8 0%, #171817 100%) !important;
+background: linear-gradient(to left, #7a6f75 0%, #171817 100%) !important;
 border-radius: 40px;
-text-align: left;
+text-align: center;
 }
-#contact .social {
-	border-top: 1px solid rgba(255,255,255,0.15);
-	padding-top: 50px;
-	margin-top: 50px;
-	text-align: center;
-}
-#contact .social ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-#contact .social i.fa {
-	font-size: 22px;
-	width: 48px;
-	height: 48px;
-	padding: 12px 0;
-	border: 2px solid #fff;
-	color: #fff;
-	border-radius: 50%;
-	transition: all 0.3s;
-}
-#contact .social i.fa:hover {
-	color: #608dfd;
-	background: #fff;
-}
+#contact .liste-contact-red {
+	color: #d61616ba;
+	}
+#contact .liste-contact-vert {
+	color: #73d616ba;
+	}
+
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
@@ -843,9 +760,6 @@ h2{
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
     padding-top: 150px;
-}
-#header .intro p {
-	margin-bottom: 40px;	
 }
 /* Features Section  => PRATIQUES */
 #features {
@@ -889,7 +803,6 @@ margin-top: -30px;
 	margin-top: 0px;
 }
 
-
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -923,9 +836,6 @@ margin-top: -30px;
 .hover-bg:hover .hover-text {
 	
 }
-
-
-
 
 
 /* Portfolio Section => GALERIE */
