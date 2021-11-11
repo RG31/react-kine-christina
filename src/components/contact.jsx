@@ -1,6 +1,6 @@
 
 // <a href="tel:0102030405">Contactez-nous au 01 02 03 04 05</a>
-import { List, ListItem } from 'semantic-ui-react';
+import { List} from 'semantic-ui-react';
 export const Contact = (props) => {
   const message = ' Pour un premier rendez-vous, veuillez me téléphoner ou m\'envoyer un sms.  \n\n L\'email est réservé uniquement pour le suivi des examens clinique';
   return (
