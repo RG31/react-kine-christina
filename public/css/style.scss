@@ -671,6 +671,9 @@ font-size: 18px;
 #contact h2 {
 	color: white;
 }
+#contact h6 {
+	font-size: 16px;
+}
 #contact h2::after {
 	position: absolute;
 	content: "";
@@ -706,15 +709,15 @@ label {
 #contact .contact-item {
 	margin-top: 20px;
 	margin-left: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
-	display: block;
+	display: flex;
 }
-#contact .contact-item i.fa {
-	margin-right: 5px;
+#contact .contact-item .fa {
+	margin-right: 10px;
 }
 #contact .contact-info {
 background: linear-gradient(to left, #7a6f75 0%, #171817 100%) !important;
@@ -727,6 +730,16 @@ text-align: center;
 #contact .liste-contact-vert {
 	color: #73d616ba;
 	}
+#contact List {
+	display: flex;
+	justify-content: center;
+}
+#contact List.Item {
+	width: 80px;
+	height: 80px;
+	background-color: #eee;
+	margin: 10px;
+}
 
 /* Footer Section*/
 #footer {

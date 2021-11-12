@@ -17,10 +17,12 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='contact-item'>
           <h3>1er RDV</h3>
           <span className="new-line">
           {message}
               </span>
+          </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
           <div className='contact-item'>
@@ -29,26 +31,19 @@ export const Contact = (props) => {
                 <span> {' '}
                   <List.Item className='fa fa-user-md '> </List.Item> Cabinet 
                 </span>
-
-                {props.data ? props.data.nom : 'loading'}
-
+                <h6>{props.data ? props.data.nom : 'loading'}</h6>
                 <span>{' '}
                   <List.Item className='fa fa-map-marker liste-contact-red'></List.Item> Addresse
                 </span>
-
-                {props.data ? props.data.address : 'loading'}
-
+                <h6>{props.data ? props.data.address : 'loading'}</h6>
                 <span>{' '}
                   <List.Item className='fa fa-phone liste-contact-vert'></List.Item> Téléphone
                 </span>
-
-                {props.data ? props.data.phone : 'loading'}
-
+                <h6>{props.data ? props.data.phone : 'loading'}</h6>
                 <span>{' '}
                   <List.Item className='fa fa-envelope-o'></List.Item> Email
                 </span>
-
-                {props.data ? props.data.email : 'loading'}
+                <h6>{props.data ? props.data.email : 'loading'}</h6>
               </List>
               </div>
           </div>
@@ -57,26 +52,20 @@ export const Contact = (props) => {
           <h3>Références</h3>
                <List>
                 <span> {' '}
-                  <List.Item className='fa fa-graduation-cap '> </List.Item> 
+                  <List.Item className='fa fa-graduation-cap '> </List.Item> Kinesi 
                 </span>
-
                 {props.data ? props.data.ref1 : 'ref1'}
-
                 <span>
-                  <List.Item className='fa fa-graduation-cap '> </List.Item> 
+                  <List.Item className='fa fa-graduation-cap '> </List.Item> Osthéo
                   </span> {' '}
-
                 {props.data ? props.data.ref2 : 'ref2'}
-               
                 <span>
-                  <List.Item className='fa fa-graduation-cap '> </List.Item>
+                  <List.Item className='fa fa-graduation-cap '> </List.Item>  Energie
                   </span> {' '}
-
-               {props.data ? props.data.ref3 : 'ref3'} 
-                
+               {props.data ? props.data.ref3 : 'ref3'}  
               </List>
-          </div>
-          </div>
+         </div>
+         </div>
         </div>
       </div>
       <div id='footer'>

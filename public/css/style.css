@@ -748,6 +748,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   color: white;
 }
 
+#contact h6 {
+  font-size: 16px;
+}
+
 #contact h2::after {
   position: absolute;
   content: "";
@@ -786,17 +790,17 @@ label {
 #contact .contact-item {
   margin-top: 20px;
   margin-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 #contact .contact-item span {
   color: white;
   margin-bottom: 10px;
-  display: block;
+  display: flex;
 }
 
-#contact .contact-item i.fa {
-  margin-right: 5px;
+#contact .contact-item .fa {
+  margin-right: 10px;
 }
 
 #contact .contact-info {
@@ -811,6 +815,18 @@ label {
 
 #contact .liste-contact-vert {
   color: #73d616ba;
+}
+
+#contact List {
+  display: flex;
+  justify-content: center;
+}
+
+#contact List.Item {
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+  margin: 10px;
 }
 
 /* Footer Section*/
