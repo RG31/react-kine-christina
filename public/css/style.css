@@ -489,6 +489,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   font-weight: 500;
   padding: 5px 0;
   color: white;
+  border-width: 0px 0px 1px 0px;
 }
 
 #services p {
@@ -498,6 +499,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #services hr {
+  height: 10;
   background: white;
 }
 
@@ -509,6 +511,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-right: 2px solid white;
   border-top: 2px solid white;
   border-radius: 25px;
+  min-height: 20%;
 }
 
 #services .service-desc p {
@@ -644,7 +647,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: white;
+  background: #f0dfdf;
 }
 
 #testimonials i {
@@ -728,6 +731,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .new-line {
   white-space: pre-line;
+  text-align: left;
 }
 
 #contact .thanks {
@@ -746,10 +750,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #contact h2 {
   color: white;
-}
-
-#contact h6 {
-  font-size: 16px;
 }
 
 #contact h2::after {
@@ -774,6 +774,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-style: solid dotted;
   border-color: white;
   padding: 10px;
+}
+
+#contact h5 {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#contact h6 {
+  font-size: 16px;
 }
 
 #contact p {
@@ -809,24 +818,16 @@ label {
   text-align: center;
 }
 
-#contact .liste-contact-red {
+#contact .liste-contact-adress {
   color: #d61616ba;
 }
 
-#contact .liste-contact-vert {
+#contact .liste-contact-tel {
   color: #73d616ba;
 }
 
-#contact List {
-  display: flex;
-  justify-content: center;
-}
-
-#contact List.Item {
-  width: 80px;
-  height: 80px;
-  background-color: #eee;
-  margin: 10px;
+#contact .liste-contact-certif {
+  color: #d616acba;
 }
 
 /* Footer Section*/
@@ -849,7 +850,6 @@ label {
 }
 
 @media (max-width: 768px) {
-  /* @RG31*/
   h2 {
     font-weight: 400;
   }

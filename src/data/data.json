@@ -5,7 +5,8 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "J'exerce mon métier depuis des années avec passion et dévouement. Je traite la personne dans sa globalité , son engagement psychosocial et son environnement. Je combine mes trois diplômes ( kiné, ostéo, pratique énergétique chinoise ) pour trouver une juste solution à votre problème de Santé . J'instaure ainsi un dialogue entre vous et moi car la solution, vous l'avez tous en vous et les techniques nous laissent la trouver . ",
+        "paragraph2": "Je vous accompagne pour rééquilibrer votre Santé, du plus jeune âge à l'âge adulte. Je vous propose des résultats en préventif curatif ou suivie. La première séance se déroule selon un bilan complet basé sur l'anamnèse clinique , énergétique et ostéopathique. ",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
@@ -19,72 +20,88 @@
             "Lorem ipsum dolor"
         ]
     },
-    "Services": [{
+    "Services": [
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Stress et fatigue",
+            "text": "insomnies , dépressions légères et anxiété, concentration, burn-out ",
+            "text2": ""
+        },
+        {
             "icon": "fa fa-wordpress",
-            "name": "Douleur Chronique",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Douleur chronique et aiguë",
+            "text": "Cervicalgies dorsalgie lombalgies, tendinites, blocages articulaires, migraines, acouphènes et problèmes neurologiques",
+            "text2": " "
         },
         {
             "icon": "fa fa-cart-arrow-down",
             "name": "Traumatisme",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "text": "accidents , blessures sportives",
+            "text2": " "
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Stress et fatigue",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-      },
-        {
             "icon": "fa fa-language",
-            "name": "Trouble de santé",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
+            "name": "Digestion et émotions",
+            "text": "A définir ",
+            "text2": " "
+         },
         {
             "icon": "fa fa-plane",
             "name": "Equilibre énergétique",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
+            "text": "Alimentation , mouvements, les Cinq éléments, théorie des organes , Qi , yin yang ",
+            "text2": ""
+          },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Digestion et émotion",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-            "text2": "ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
+            "name": "Gynécologie",
+            "text": "Douleurs et irrégularités des règles, peau acnéique pour les adolescents, femme enceinte , préménopause et menopause ",
+            "text2": "   "
+          },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Problèmes liés l'âge ",
+            "text": "Sagesse , vitalité, sommeil, vieillissement cutané",
+            "text2": "   "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Neurologie",
+            "text": "Paralysie faciale, entrapment des nerfs , canal carpien , syndrôme de Menière",
+            "text2": "   "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Pédiatrie",
+            "text": "Bilan de naissance, nouveaux nés et leur problématique , suivi de croissance et scoliose... , puberté et leur problématique des blessures sportives , maux de tête et maux de ventre ",
+            "text2": "   "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Dermatologie",
+            "text": "Acné, démangeaisons, prévention du vieillissement de la peau",
+            "text2": "   "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Pleine conscience",
+            "text": "Une fois par mois , je vous propose un cours collectif pour préserver votre équilibre mental , énergétique et physique et travailler sur le moment présent ",
+            "text2": "   "
+        }
     ],
     "Testimonials": [{
-            "img": "img/testimonials/01.jpg",
+            "img": "img/testimonials/06.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "name": "Klimek Delphine"
         },
         {
             "img": "img/testimonials/04.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "name": "Patricia Ruzafa"
         },
         {
-            "img": "img/testimonials/05.jpg",
+            "img": "img/testimonials/02.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
+            "name": "Duarte Ylian"
         }
     ],
     "Contact": {

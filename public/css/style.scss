@@ -456,6 +456,7 @@ font-size: 18px;
 	font-weight: 500;
 	padding: 5px 0;
 	color: white;
+	border-width:0px 0px 1px 0px;
 }
 #services p {
 	font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
@@ -463,7 +464,7 @@ font-size: 18px;
 	padding-bottom: 20px;
 }
 #services hr {
-
+	height: 10;
 	background: white;
 }
 #services .service-desc {
@@ -474,6 +475,7 @@ font-size: 18px;
 	border-right:2px solid rgb(255, 255, 255); 
 	border-top:2px solid rgb(255, 255, 255); 
 	border-radius: 25px;
+	min-height: 20%;
 }
 #services .service-desc p {
 	text-align: center;
@@ -579,7 +581,7 @@ font-size: 18px;
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background:white;
+	background:rgb(240, 223, 223);
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -651,6 +653,7 @@ font-size: 18px;
 
 .new-line {
 	white-space: pre-line;
+	text-align: left;
   }
 
 #contact .thanks {
@@ -670,9 +673,6 @@ font-size: 18px;
 }
 #contact h2 {
 	color: white;
-}
-#contact h6 {
-	font-size: 16px;
 }
 #contact h2::after {
 	position: absolute;
@@ -695,6 +695,13 @@ font-size: 18px;
 	border-style:solid dotted;
 	border-color: white;
 	padding: 10px;
+}
+#contact h5 {
+	margin-bottom: 10px;
+	display: flex;
+}
+#contact h6 {
+	font-size: 16px;
 }
 #contact p {
 	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
@@ -724,22 +731,15 @@ background: linear-gradient(to left, #7a6f75 0%, #171817 100%) !important;
 border-radius: 40px;
 text-align: center;
 }
-#contact .liste-contact-red {
+#contact .liste-contact-adress {
 	color: #d61616ba;
 	}
-#contact .liste-contact-vert {
+#contact .liste-contact-tel {
 	color: #73d616ba;
 	}
-#contact List {
-	display: flex;
-	justify-content: center;
-}
-#contact List.Item {
-	width: 80px;
-	height: 80px;
-	background-color: #eee;
-	margin: 10px;
-}
+#contact .liste-contact-certif {
+color: #d616acba;
+	}
 
 /* Footer Section*/
 #footer {
@@ -757,9 +757,7 @@ text-align: center;
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
-
 @media (max-width: 768px) {
-/* @RG31*/
 h2{
 	font-weight: 400;
   }
@@ -815,7 +813,6 @@ margin-top: -30px;
 	margin-left: 60px;
 	margin-top: 0px;
 }
-
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -844,13 +841,9 @@ margin-top: -30px;
 	text-transform: uppercase;
 }
 .hover-bg:hover .hover-text>h4 {
-
 }
 .hover-bg:hover .hover-text {
-	
 }
-
-
 /* Portfolio Section => GALERIE */
 #portfolio {
 	padding: 100px 0;

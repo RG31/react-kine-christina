@@ -11,27 +11,7 @@ export const About = (props) => {
             <div className='about-text'>
               <h2>Mon cabinet</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
-              <h3>Ce qui me passionne</h3>
-              <div className='list-style'>
-                <div className='col-lg-6 col-sm-6 col-xs-12'>
-                  <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
-                <div className='col-lg-6 col-sm-6 col-xs-12'>
-                  <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : 'loading'}
-                  </ul>
-                </div>
-              </div>
+              <p>{props.data ? props.data.paragraph2 : 'loading...'}</p>
             </div>
           </div>
         </div>

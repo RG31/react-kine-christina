@@ -10,8 +10,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Les soins</h2>
           <span>
-          Je vous accompagne au changement pour prendre soin de vous.
-          </span>
+          Je vous accompagne pour prendre soin de vous. </span>
         </div>
         <div className='row'>
           {props.data
