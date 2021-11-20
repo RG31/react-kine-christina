@@ -11,6 +11,7 @@ export const About = (props) => {
             <div className='about-text'>
               <h2>Mon cabinet</h2>
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
+              <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <p>{props.data ? props.data.paragraph2 : 'loading...'}</p>
             </div>
           </div>
