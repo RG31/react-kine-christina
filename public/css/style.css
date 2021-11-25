@@ -819,6 +819,14 @@ label {
   color: #d616acba;
 }
 
+#contact a {
+  color: #3ec1f5ba;
+}
+
+#contact a:hover {
+  color: #FFFF00;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
