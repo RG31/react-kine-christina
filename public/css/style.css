@@ -487,9 +487,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #services h3 {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
-  font-weight: 500;
-  padding: 5px 0;
-  color: white;
+  font-weight: 800;
+  font-family: CaviarDreams;
+  font-size: 18px;
+  padding: 25px 0 0 0;
+  color: #f58de4;
   border-width: 0px 0px 1px 0px;
 }
 
@@ -500,15 +502,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #services hr {
-  height: 10;
+  height: 2px;
   background: white;
 }
 
 #services .service-desc {
   margin: 10px 10px 20px;
   margin-bottom: 40px;
-  background-color: white;
-  background: linear-gradient(to left, #ff63ea21 0%, #171817 200%);
+  background-color: rgba(107, 103, 103, 0.877);
   border-right: 2px solid white;
   border-top: 2px solid white;
   border-radius: 25px;
@@ -735,20 +736,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   text-align: left;
 }
 
-#contact .thanks {
-  font-family: "CaviarDreams", "Open Sans", sans-serif;
-  font-size: 15px;
-  padding: 10px 25px 10px;
-  color: white;
-  position: absolute;
-  background-color: #fff;
-  margin-top: 61px;
-  margin-left: 40px;
-  border-radius: 50px 0px 50px 0px;
-  font-weight: 0 !important;
-  background: linear-gradient(to left, #f9f7f8 0%, #171817 100%) !important;
-}
-
 #contact h2 {
   color: white;
 }
@@ -780,6 +767,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact h5 {
   margin-bottom: 10px;
   display: flex;
+  text-align: left;
 }
 
 #contact h6 {
