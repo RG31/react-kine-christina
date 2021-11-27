@@ -431,12 +431,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about img {
   width: 520px;
-  margin: auto;
-  padding: auto;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
-  margin-bottom: 40px;
   border-radius: 10px;
 }
 

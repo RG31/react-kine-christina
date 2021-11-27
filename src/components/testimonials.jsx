@@ -1,5 +1,3 @@
-import { useMediaPredicate } from "react-media-hook";
-
 export const Testimonials = (props) => {
   
   return (
