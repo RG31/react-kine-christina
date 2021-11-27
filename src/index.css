@@ -16,26 +16,26 @@ code {
 	font-style: normal;
 	font-weight: normal;
 	src: local("CaviarDreams"),
-	 url("./fonts/caviar_dreams/CaviarDreams.ttf") format("truetype");
+	 url("./data/fonts/caviar_dreams/CaviarDreams.ttf") format("truetype");
 	}
   @font-face {
     font-family: "CaviarDreams_Bold";
     font-style: normal;
     font-weight: normal;
     src: local("CaviarDreams"),
-     url("./fonts/caviar_dreams/CaviarDreams_Bold.ttf") format("truetype");
+     url("./data/fonts/caviar_dreams/CaviarDreams_Bold.ttf") format("truetype");
     }
     @font-face {
       font-family: "CaviarDreams_BoldItalic";
       font-style: normal;
       font-weight: normal;
       src: local("CaviarDreams"),
-       url("./fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf") format("truetype");
+       url("./data/fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf") format("truetype");
       }
       @font-face {
         font-family: "CaviarDreams_Italic";
         font-style: normal;
         font-weight: normal;
         src: local("CaviarDreams"),
-         url("./fonts/caviar_dreams/CaviarDreams_Italic.ttf") format("truetype");
+         url("./data/fonts/caviar_dreams/CaviarDreams_Italic.ttf") format("truetype");
         }

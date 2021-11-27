@@ -498,7 +498,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #services p {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
   color: white;
-  padding-bottom: 20px;
+  padding: 15px;
 }
 
 #services hr {
@@ -513,7 +513,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-right: 2px solid white;
   border-top: 2px solid white;
   border-radius: 25px;
-  min-height: 20%;
+  min-height: 50%;
 }
 
 #services .service-desc p {
@@ -876,6 +876,11 @@ label {
 
   #features p {
     margin: 15 0 40px;
+  }
+
+  /* services */
+  #services .service-desc {
+    min-height: 20%;
   }
 
   /* Features Section  => CONTACT */

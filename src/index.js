@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 // polices
-import './fonts/caviar_dreams/CaviarDreams.ttf';
-import './fonts/caviar_dreams/CaviarDreams_Bold.ttf';
-import './fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf';
-import './fonts/caviar_dreams/CaviarDreams_Italic.ttf';
+import './data/fonts/caviar_dreams/CaviarDreams.ttf';
+import './data/fonts/caviar_dreams/CaviarDreams_Bold.ttf';
+import './data/fonts/caviar_dreams/CaviarDreams_BoldItalic.ttf';
+import './data/fonts/caviar_dreams/CaviarDreams_Italic.ttf';
 import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(

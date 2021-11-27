@@ -25,83 +25,100 @@
         {
             "icon": "fa fa-cloud-download",
             "name": "Stress et fatigue",
-            "text": "insomnies , dépressions légères et anxiété, concentration, burn-out ",
-            "text2": ""
+            "text": "Insomnies - dépressions légères et anxiété ",
+            "text2": "Concentration - burn-out",
+            "text3": "::::::::::::::::::::::::::::::"
         },
         {
             "icon": "fa fa-wordpress",
             "name": "Douleur chronique et aiguë",
-            "text": "Cervicalgies dorsalgie lombalgies, tendinites, blocages articulaires, migraines, acouphènes et problèmes neurologiques",
-            "text2": " "
+            "text": "Cervicalgies dorsalgie lombalgies - tendinites - blocages articulaires ",
+            "text2": "Migraines - acouphènes - problèmes neurologiques ",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-cart-arrow-down",
             "name": "Traumatisme",
-            "text": "accidents , blessures sportives",
-            "text2": " "
+            "text": "Accidents",
+            "text2":"Blessures sportives",
+            "text3": ":::::::::::::::::::::::::::::: "
+
         },
-        {
-            "icon": "fa fa-language",
-            "name": "Digestion et émotions",
-            "text": "A définir ",
-            "text2": " "
-         },
         {
             "icon": "fa fa-plane",
             "name": "Equilibre énergétique",
-            "text": "Alimentation , mouvements, les Cinq éléments, théorie des organes , Qi , yin yang ",
-            "text2": ""
+            "text": "Alimentation - mouvements - les Cinq éléments ",
+            "text2": "Théorie des organes - Qi - Yin&Yang ",
+            "text3": ":::::::::::::::::::::::::::::: "
           },
         {
             "icon": "fa fa-pie-chart",
             "name": "Gynécologie",
-            "text": "Douleurs et irrégularités des règles, peau acnéique pour les adolescents, femme enceinte , préménopause et menopause ",
-            "text2": "   "
+            "text": "Douleurs et irrégularités des règles - peau acnéique pour les adolescents ",
+            "text2": "Femme enceinte - préménopause - menopause",
+            "text3": ":::::::::::::::::::::::::::::: "
           },
         {
             "icon": "fa fa-pie-chart",
             "name": "Problèmes liés l'âge ",
-            "text": "Sagesse , vitalité, sommeil, vieillissement cutané",
-            "text2": "   "
+            "text": "Sagesse - vitalité ",
+            "text2": "Sommeil - vieillissement cutané ",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-pie-chart",
             "name": "Neurologie",
-            "text": "Paralysie faciale, entrapment des nerfs , canal carpien , syndrôme de Menière",
-            "text2": "   "
+            "text": "Paralysie faciale - entrapment des nerfs ",
+            "text2": "Canal carpien - syndrôme de Menière",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-pie-chart",
             "name": "Pédiatrie",
-            "text": "Bilan de naissance, nouveaux nés et leur problématique , suivi de croissance et scoliose... , puberté et leur problématique des blessures sportives , maux de tête et maux de ventre ",
-            "text2": "   "
+            "text": "Bilan de naissance - nouveaux nés et leur problématique - suivi de croissance et scoliose",
+            "text2": "Puberté et leur problématique des blessures sportives - maux de tête et maux de ventre ",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-pie-chart",
             "name": "Dermatologie",
-            "text": "Acné, démangeaisons, prévention du vieillissement de la peau",
-            "text2": "   "
+            "text": "Acné - démangeaisons",
+            "text2": "Prévention du vieillissement de la peau ",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-pie-chart",
             "name": "Pleine conscience",
-            "text": "Une fois par mois , je vous propose un cours collectif pour préserver votre équilibre mental , énergétique et physique et travailler sur le moment présent ",
-            "text2": "   "
-        }
+            "text": "Une fois par mois , je vous propose un cours collectif pour préserver votre équilibre mental , énergétique et physique et travailler sur le moment présent. ",
+            "text2": "   ",
+            "text3": ":::::::::::::::::::::::::::::: "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Bien-être",
+            "text": "Le bien-être est un équilibre physique et mental et l'énergie chinoise est une approche en prévention.",
+            "text2": " Par un bilan énergétique et physique , des soins et conseils vous sont proposés et adaptés à votre situation. "
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Digestion et émotions",
+            "text": "Nos émotions, l'âge, notre alimentation, et les saisons ont un impact sur notre digestion. ",
+            "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques.  "
+         }
     ],
     "Testimonials": [{
             "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Klimek Delphine"
+            "text": "\"Çela fait plus de 15 ans que je consulte Christine Grillet et je lui ai envoyé toute ma famille. Elle a aidé mon père à mieux vivre au quotidien la maladie de Parkinson et elle a soigné la phobie de ma fille, quand elle avait 12 ans, en moins de 6 séances. Elle a soigné mes douleurs, mon stress et mes insomnies en quelques séances. Christine est une thérapeute bienveillante, très professionnelle et a l’écoute de ses patients, elle est surtout très compétente et très efficace. Je la recommande a 100%.\"",
+            "name": "D.K. 48 ans "
         },
         {
             "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at .\"",
             "name": "Patricia Ruzafa"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscLorem ipsum dolor sit amet, consectetur adipiscLorem ipsum dolor sit amet, consectetur adipiscconsectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
             "name": "Duarte Ylian"
         }
     ],

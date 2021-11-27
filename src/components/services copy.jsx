@@ -28,16 +28,10 @@ export const Services = (props) => {
                         <span id="close"> Fermer</span>
                       </summary>
                         <p>{d.text}</p>
-                        <p>{d.text2}</p>
-                        <p>{d.text3}</p>
                     </details>
                     }
                      {!smallerThan768 && 
-                     <div> 
                      <p>{d.text}</p>
-                     <p>{d.text2}</p>
-                     <p>{d.text3}</p>
-                     </div>
                         }   
                   </div>
                 </div>

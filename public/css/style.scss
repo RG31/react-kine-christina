@@ -464,7 +464,7 @@ font-size: 18px;
 #services p {
 	font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
 	color: white;
-	padding-bottom: 20px;
+	padding: 15px;
 }
 #services hr {
 	height: 2px;
@@ -478,7 +478,7 @@ font-size: 18px;
 	border-right:2px solid rgb(255, 255, 255); 
 	border-top:2px solid rgb(255, 255, 255); 
 	border-radius: 25px;
-	min-height: 20%;
+	min-height: 50%;
 }
 #services .service-desc p {
 	text-align: center;
@@ -780,6 +780,11 @@ margin-top: -30px;
 #features p {
     margin: 15 0 40px;
 }
+
+/* services */
+#services .service-desc {
+	min-height: 20%;
+}
 /* Features Section  => CONTACT */
 #contact .form-check-link {
 	font-size: 12px;
@@ -811,13 +816,12 @@ margin-top: -30px;
 	margin-left: 60px;
 	margin-top: 0px;
 }
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	//background: linear-gradient(to right, #853386 0%,  #ff63ea21 70%);
-    //background: linear-gradient(to right, #f58de4 0%, #853386 100%);
 	background: 0%;
 	padding: 30% 0 0 0;
 	height: 100%;

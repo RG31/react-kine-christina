@@ -1,4 +1,7 @@
+import { useMediaPredicate } from "react-media-hook";
+
 export const Testimonials = (props) => {
+  
   return (
     <div id='testimonials'>
       <div className='container'>
@@ -15,7 +18,10 @@ export const Testimonials = (props) => {
                       <img src={d.img} alt='' />{' '}
                     </div>
                     <div className='testimonial-content'>
-                      <p>"{d.text}"</p>
+                      <details>
+                        <p>"{d.text}"
+                        </p>
+                      </details>
                       <div className='testimonial-meta'> - {d.name} </div>
                     </div>
                   </div>
