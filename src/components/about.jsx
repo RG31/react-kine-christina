@@ -1,3 +1,4 @@
+// https://www.npmjs.com/package/react-show-more-text
 export const About = (props) => {
   return (
     <div id='about'>

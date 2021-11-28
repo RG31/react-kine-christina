@@ -101,15 +101,13 @@ hr {
 	padding: 15px;
 	transition: all 0.8s ease-out;
 }
-
 /* Navigation */
-
 .navbar-collapse {
     //padding-left: 180;
     text-align: right;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	//background-color: rgba(0,0,0,0.2);
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
@@ -126,6 +124,7 @@ hr {
 	font-family: "CaviarDreams_Bold", "Raleway", sans-serif;
 	text-transform: uppercase;
 	color: rgba(85, 85, 85, 0.787);
+	//color: #5cfb84;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -162,6 +161,7 @@ hr {
 }
 .navbar-toggle {
 	border-radius: 0;
+    background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
 }
 
 /* ANIMATED X */
@@ -367,9 +367,9 @@ font-size: 18px;
 }
 #about .container {
 	padding: 30px;
-	border-width: 1px 0 0 0 ;
-	border-style: solid;
-	border-color: #3b2a3b56;
+	//border-width: 1px 0 0 0 ;
+	//border-style: solid;
+	//border-color: #3b2a3b56;
 	border-radius: 20px;
 
 }
@@ -617,6 +617,7 @@ font-size: 18px;
 	margin-bottom: 0;
 	font-size: 14px;
 	font-style: italic;
+	padding-top: 30px;
 }
 .testimonial-meta {
 	margin-top: 10px;
@@ -624,6 +625,17 @@ font-size: 18px;
 	font-weight: 600;
 	color: #666;
 }
+.testimonial details{
+	display:block;
+	cursor: pointer;
+	color: rgb(82, 80, 80);
+	background-color: #cabfc89a;
+	border-radius: 0px 40px 0px 40px;
+	padding: 20px;
+	//margin-bottom: 30px;
+	box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
+	//line-height: 0px;
+  }
 /* Team Section */
 #team {
 	padding: 100px 0;

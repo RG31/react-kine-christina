@@ -109,7 +109,6 @@ hr {
 }
 
 #menu.navbar-default {
-  background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -168,6 +167,7 @@ hr {
 
 .navbar-toggle {
   border-radius: 0;
+  background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
 }
 
 /* ANIMATED X */
@@ -394,9 +394,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about .container {
   padding: 30px;
-  border-width: 1px 0 0 0;
-  border-style: solid;
-  border-color: #3b2a3b56;
   border-radius: 20px;
 }
 
@@ -691,6 +688,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
+  padding-top: 30px;
 }
 
 .testimonial-meta {
@@ -698,6 +696,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+
+.testimonial details {
+  display: block;
+  cursor: pointer;
+  color: #525050;
+  background-color: #cabfc89a;
+  border-radius: 0px 40px 0px 40px;
+  padding: 20px;
+  box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
 }
 
 /* Team Section */
