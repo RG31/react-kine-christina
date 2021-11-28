@@ -392,6 +392,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   padding: 100px 0;
 }
 
+#about .container {
+  padding: 30px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #3b2a3b56;
+  border-radius: 20px;
+}
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px 0;
@@ -430,6 +438,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #about img {
+  margin-top: auto;
+  margin-bottom: 40px;
   width: 520px;
   background: #fff;
   border-right: 0;
@@ -873,6 +883,19 @@ label {
 
   #features p {
     margin: 15 0 40px;
+  }
+
+  /*about*/
+  #about img {
+    margin-bottom: 40px;
+    margin-top: auto;
+  }
+
+  #about p {
+    padding: 20px;
+    background-color: #c5a1c61f;
+    /*box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);*/
+    border-radius: 20px;
   }
 
   /* services */
