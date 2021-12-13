@@ -5,7 +5,7 @@ export const Navigation = (props) => {
         <div className='navbar-header'>
           <button
             type='button'
-            className='navbar-toggle'
+            className='navbar-toggle x'
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
           >
@@ -14,9 +14,10 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            @RG31
+          <a className='navbar-brand page-scroll' href="#page-top" download="logo.png">
+          
           </a>{' '}
+          <canvas width="60" height="60"></canvas>
         </div>
 
         <div
