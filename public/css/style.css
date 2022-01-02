@@ -388,12 +388,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* About Section => MON CABINET*/
 #about {
-  background: #f6f6f6;
   padding: 100px 0;
 }
 
 #about .container {
-  background-color: #f0dfdf;
   padding: 30px;
   border-radius: 20px;
 }
@@ -647,7 +645,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f0dfdf;
+  background: #e2d1d1;
 }
 
 #testimonials i {
@@ -696,7 +694,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   display: block;
   cursor: pointer;
   color: #525050;
-  background-color: #cabfc89a;
+  background-color: white;
   border-radius: 0px 40px 0px 40px;
   padding: 20px;
   box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
@@ -957,8 +955,8 @@ label {
   .hover-bg .hover-text > h4 {
     font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
     opacity: 1;
-    background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-    color: #fff;
+    background-color: white;
+    color: rgba(19, 1, 1, 0.747);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     transition: all 0.3s;
@@ -974,7 +972,7 @@ label {
   }
 
   .portfolio-item {
-    margin: 1px -15px 0 -14px;
+    margin: 30px -15px 0 -14px;
     padding: 0;
   }
 }

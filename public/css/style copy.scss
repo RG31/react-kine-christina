@@ -856,9 +856,8 @@ margin-bottom: 60px;
 .hover-bg .hover-text>h4 {
 	font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
 	opacity: 1;
-	//background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-	background-color: white;
-	color: rgba(19, 1, 1, 0.747);
+	background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
+	color: #fff;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 	transition: all 0.3s;
@@ -876,7 +875,7 @@ margin-bottom: 60px;
 	padding: 100px 0;
 }
 .portfolio-item {
-	margin: 30px -15px 0 -14px;
+	margin: 1px -15px 0 -14px;
 	padding: 0;
 }
 .portfolio-item .hover-bg {
