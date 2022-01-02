@@ -393,13 +393,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #about .container {
+  background-color: #f0dfdf;
   padding: 30px;
   border-radius: 20px;
-}
-
-#about h3 {
-  font-size: 22px;
-  margin: 0 0 20px 0;
 }
 
 #about h2 {
@@ -436,18 +432,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about img {
   margin-top: auto;
-  margin-bottom: 40px;
   width: 520px;
-  background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
-  border-radius: 10px;
 }
 
 #about p {
   line-height: 24px;
-  margin: 30px 0;
+  margin: 10px 0;
   color: black;
+  border-radius: 10px;
 }
 
 /* Services Section => SOINS */
@@ -861,6 +855,7 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+/* ------------------------------------------------------------------*/
 @media (max-width: 768px) {
   h2 {
     font-weight: 400;
@@ -895,14 +890,12 @@ label {
 
   /*about*/
   #about img {
-    margin-bottom: 40px;
-    margin-top: auto;
+    margin-bottom: 60px;
   }
 
   #about p {
     padding: 20px;
-    background-color: #c5a1c61f;
-    /*box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);*/
+    background-color: white;
     border-radius: 20px;
   }
 
