@@ -1,4 +1,4 @@
-import myLogo from './logo.png';
+import myLogo from './logo-cg-small.jpg';
 
 export const Navigation = (props) => {
   return (
@@ -19,7 +19,7 @@ export const Navigation = (props) => {
           <a className='navbar-brand page-scroll' href="#page-top">
            <img className="logo" src={myLogo} alt="art de vivre logo" />
           </a>{' '}
-          <canvas width="60" height="60"></canvas>
+          <canvas width="60" height="80"></canvas>
         </div>
 
         <div

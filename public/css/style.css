@@ -104,6 +104,13 @@ hr {
 }
 
 /* Navigation */
+.logo {
+  box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
+  display: block;
+  width: 54px;
+  height: 54px;
+}
+
 .navbar-collapse {
   text-align: right;
 }
@@ -125,12 +132,14 @@ hr {
   font-family: "CaviarDreams", "Raleway", sans-serif;
   font-family: "CaviarDreams_Bold", "Raleway", sans-serif;
   text-transform: uppercase;
-  color: rgba(85, 85, 85, 0.787);
-  font-size: 15px;
+  color: #614407;
+  font-size: 20px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
+  border-radius: 25px;
+  text-shadow: 10px 10px 10px rgba(18, 19, 17, 0.555);
 }
 
 #menu.navbar-default .navbar-nav > li > a:after {
