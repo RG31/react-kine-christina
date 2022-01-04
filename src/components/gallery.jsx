@@ -17,7 +17,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Kinésithérapie</h4>
+                      <h4>Kinésithérapie 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/kine_SMALL.jpg'
@@ -38,7 +38,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Osthéopathie</h4>
+                      <h4>Osthéopathie 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/ostheo_SMALL.jpg'
@@ -59,7 +59,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Médecine Chinoise</h4>
+                      <h4>Médecine Chinoise 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/medecine_chinoise_SMALL.jpg'
@@ -80,7 +80,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Sophrologie</h4>
+                      <h4>Sophrologie 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/sophro_SMALL.jpg'
@@ -101,7 +101,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Mon cabinet</h4>
+                      <h4>Mon cabinet 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/cabinet_SMALL.jpg'
@@ -122,7 +122,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Ventouses Chinoises</h4>
+                      <h4>Ventouses Chinoises 🔍 </h4>
                     </div>
                     <img
                       src='img/portfolio/ventouse_SMALL.jpg'

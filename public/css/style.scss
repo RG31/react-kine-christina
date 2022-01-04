@@ -771,6 +771,8 @@ h2{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
 	}
+
+
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
     padding-top: 150px;
@@ -853,8 +855,11 @@ margin-bottom: 60px;
 	transition: all 0.3s;
 	font-size: 18px;
 	letter-spacing: 1px;
-	font-weight: 500;
-	text-transform: uppercase;
+	//font-weight: 500;
+	text-transform: initial;
+	//text-decoration: underline;
+}
+.hover-bg .hover-text>h4:hover {
 }
 .hover-bg:hover .hover-text>h4 {
 }
@@ -869,7 +874,6 @@ margin-bottom: 60px;
 	padding: 0;
 }
 .portfolio-item .hover-bg {
-
 }
 }
 input:focus,
