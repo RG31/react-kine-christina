@@ -24,14 +24,14 @@
     "Services": [
         {
             "icon": "fa fa-cloud-download",
-            "name": "Stress et fatigue",
+            "name": "Stress & fatigue",
             "text": "Insomnies - dépressions légères et anxiété ",
             "text2": "Concentration - burn-out",
             "text3": "::::::::::::::::::::::::::::::"
         },
         {
             "icon": "fa fa-wordpress",
-            "name": "Douleur chronique et aiguë",
+            "name": "Douleur chronique & aiguë",
             "text": "Cervicalgies dorsalgie lombalgies - tendinites - blocages articulaires ",
             "text2": "Migraines - acouphènes - problèmes neurologiques ",
             "text3": ":::::::::::::::::::::::::::::: "
@@ -60,7 +60,7 @@
           },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Problèmes liés l'âge ",
+            "name": "Problèmes liés à l'âge ",
             "text": "Sagesse - vitalité ",
             "text2": "Sommeil - vieillissement cutané ",
             "text3": ":::::::::::::::::::::::::::::: "
@@ -101,7 +101,7 @@
         },
         {
             "icon": "fa fa-language",
-            "name": "Digestion et émotions",
+            "name": "Digestion & émotions",
             "text": "Nos émotions, l'âge, notre alimentation, et les saisons ont un impact sur notre digestion. ",
             "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques.  "
          }
