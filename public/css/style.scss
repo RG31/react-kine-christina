@@ -772,8 +772,11 @@ h2{
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	background: linear-gradient(to right,  #f9f7f8 0%, #f5ca3eba 100%) !important;
 	}
-
-
+#portfolio span {
+	background-color: white;
+	padding: 5px;
+	border-radius: 20px 0px;
+}
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
     padding-top: 150px;
@@ -849,7 +852,7 @@ margin-bottom: 60px;
 	font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
 	opacity: 1;
 	//background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-	background-color: white;
+	//background-color: white;
 	color: rgba(19, 1, 1, 0.747);
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);

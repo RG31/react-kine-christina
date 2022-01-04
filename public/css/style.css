@@ -854,6 +854,12 @@ label {
     background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;
   }
 
+  #portfolio span {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px 0px;
+  }
+
   /* Header Section  => TON SITE VITRINE */
   #header .intro-text {
     padding-top: 150px;
@@ -941,7 +947,6 @@ label {
   .hover-bg .hover-text > h4 {
     font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
     opacity: 1;
-    background-color: white;
     color: rgba(19, 1, 1, 0.747);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
