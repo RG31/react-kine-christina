@@ -1,4 +1,4 @@
-import myLogo from './logo-cg-small.jpg';
+import myLogo from './logo-cg.jpg';
 
 export const Navigation = (props) => {
   return (
