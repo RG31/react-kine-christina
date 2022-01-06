@@ -45,7 +45,7 @@ export const Contact = (props) => {
                   <List.Item className='fa fa-envelope-o'></List.Item> Email
                 </span>
                 <h6>
-                <a href="mailto:christina.grillet@neuf.fr?body=Vos examens cliniques : ">E-Mail à Christine</a>
+                <a href="mailto:christina.grillet@neuf.fr?body=Vos examens cliniques : "> 📤 E-Mail à Christine</a>
                 </h6>
               </List>
               </div>

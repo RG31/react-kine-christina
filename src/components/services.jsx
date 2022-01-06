@@ -24,8 +24,8 @@ export const Services = (props) => {
                     {smallerThan768 && 
                     <details> 
                       <summary>
-                         <span id="open"> Détails</span>
-                        <span id="close"> Fermer</span>
+                         <span id="open"> Détails  </span>
+                        <span id="close"> Fermer  </span>
                       </summary>
                         <p>{d.text}</p>
                         <p>{d.text2}</p>

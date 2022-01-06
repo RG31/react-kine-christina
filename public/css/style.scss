@@ -98,7 +98,7 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	//padding: 15px;
 	transition: all 0.8s ease-out;
 }
 /* Navigation */
@@ -361,9 +361,6 @@ font-size: 18px;
 	//border-style: solid;
 	//border-color: #3b2a3b56;
 	border-radius: 20px;
-
-}
-#about h3 {
 
 }
 #about h2 {
@@ -736,11 +733,11 @@ text-align: center;
 
 
 #contact a {
-	color: #3ec1f5ba;
+	color:#FFFF00;
 	}
 #contact 	a:hover
 {
-	color:#FFFF00;
+	color: #3ec1f5ba;
 }
 
 /* Footer Section*/
@@ -803,6 +800,10 @@ margin-bottom: 60px;
 /* services */
 #services .service-desc {
 	min-height: 20%;
+}
+#services .service-desc span {
+    font-size: 19px;
+	//color: #614407;
 }
 /* Features Section  => CONTACT */
 #contact .form-check-link {
