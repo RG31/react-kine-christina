@@ -1,12 +1,12 @@
 
 ##### @RG31
 
-# kine-christine
+# mariage Pasacle & Laurent
 
-### <a href="https://art-de-guerir.netlify.app/">DÉMO EN DIRECT</a>
+### <a href="https://notre-mariage.netlify.app/">DÉMO EN DIRECT</a>
 
 ## La description
-Il s'agit d'un site vitrine (Mobile First Design) basé sur ReactJS, pour les kiné et/ou osthéopathes.
+Il s'agit d'une page web (Mobile First Design) basé sur ReactJS, pour les jeunes mariés.
 
 ## GO!
 ### 1. Préparatifs
