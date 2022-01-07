@@ -722,11 +722,15 @@ border-radius: 40px;
 text-align: center;
 }
 #contact .liste-contact-adress {
-	color: #d61616ba;
-	}
-#contact .liste-contact-tel {
 	color: #73d616ba;
 	}
+#contact .liste-contact-tel {
+	color: #d61616ba;
+	
+	}
+	#contact .tel  {
+		//color: #73d616ba;
+		}
 #contact .liste-contact-certif {
 	color: #d616acba;
 	}

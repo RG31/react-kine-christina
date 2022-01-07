@@ -40,12 +40,14 @@ export const Contact = (props) => {
                 <span>{' '}
                   <List.Item className='fa fa-phone liste-contact-tel'></List.Item> Téléphone
                 </span>
-                <h6>{props.data ? props.data.phone : 'loading'}</h6>
+                <h6>
+                <a className='tel' href="tel:{props.data ? props.data.phone : 'loading'}">{props.data ? props.data.phone : 'loading'}</a>
+                </h6>
                 <span>{' '}
                   <List.Item className='fa fa-envelope-o'></List.Item> Email
                 </span>
                 <h6>
-                <a href="mailto:christina.grillet@neuf.fr?body=Vos examens cliniques : "> 📤 E-Mail à Christine</a>
+                <a href="mailto:{props.data ? props.data.mail : 'loading'}?body=Vos examens cliniques : "> {props.data ? props.data.email : 'loading'}</a>
                 </h6>
               </List>
               </div>
