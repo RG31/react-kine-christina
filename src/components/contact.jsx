@@ -43,13 +43,13 @@ export const Contact = (props) => {
                   <List.Item className='fa fa-phone liste-contact-tel'></List.Item> Téléphone
                 </span>
                 <h6>
-                <a className='tel' href="tel:{props.data ? props.data.phone : 'loading'}">{props.data ? props.data.phone : 'loading'}</a>
+                <a href={props.data ? props.data.phone : 'loading'}>{props.data ? props.data.phone_view : 'loading'}</a>
                 </h6>
                 <span>{' '}
                   <List.Item className='fa fa-envelope-o'></List.Item> Email
                 </span>
                 <h6>
-                <a href="mailto:{props.data ? props.data.mail : 'loading'}?body=Vos examens cliniques : "> {props.data ? props.data.email : 'loading'}</a>
+                <a href={props.data ? props.data.email : 'loading'}> {props.data ? props.data.email_view : 'loading'}</a>
                 </h6>
               </List>
               </div>
