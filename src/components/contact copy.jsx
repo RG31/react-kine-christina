@@ -36,9 +36,8 @@ export const Contact = (props) => {
                 <span>{' '}
                   <List.Item className='fa fa-map-marker liste-contact-adress'></List.Item> Addresse
                 </span>
-                <h6>
-                <a href={props.data ? props.data.addressurl : 'loading'}> {props.data ? props.data.address : 'loading'}</a>
-                </h6>
+                <h6>{props.data ? props.data.address : 'loading'}</h6>
+                <a href={props.data ? props.data.addressurl : 'loading'}> coucouc</a>
                 <span>{' '}
                   <List.Item className='fa fa-phone liste-contact-tel'></List.Item> Téléphone
                 </span>

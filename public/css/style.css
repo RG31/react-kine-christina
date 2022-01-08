@@ -812,7 +812,8 @@ label {
 }
 
 #contact a {
-  color: #FFFF00;
+  text-decoration: underline;
+  color: white;
 }
 
 #contact a:hover {
