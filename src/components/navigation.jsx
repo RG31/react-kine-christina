@@ -17,8 +17,8 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href="#page-top">
-           <img className="logo" src={myLogo} alt="art de vivre logo" />
-          </a>{' '}
+           <img className="logo" src={myLogo} alt="christina grillet logo" />
+          </a>{''}
           <canvas width="60" height="80"></canvas>
         </div>
 
@@ -27,6 +27,11 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
+          <li>
+            <a href="#page-top" className='page-scroll'>
+                ⟰
+              </a>
+            </li>
             <li>
             <a href='#services' className='page-scroll'>
                 Soins

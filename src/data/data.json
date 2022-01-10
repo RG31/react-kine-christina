@@ -24,9 +24,9 @@
     "Services": [
         {
             "icon": "fa fa-cloud-download",
-            "name": "Stress & fatigue",
-            "text": "Insomnies - dépressions légères et anxiété ",
-            "text2": "Concentration - burn-out",
+            "name": "Stress & fatigue - POST covid",
+            "text": "Insomnies - dépressions légères et anxiété - Concentration - burn-out",
+            "text2": "Il y a plusieurs tableaux cliniques. Selon vos symptômes + le bilan médical et énérgétique , un suivi de 1 à 3 séances sera installé ",
             "text3": "::::::::::::::::::::::::::::::"
         },
         {
@@ -83,13 +83,13 @@
             "icon": "fa fa-pie-chart",
             "name": "Dermatologie",
             "text": "Acné - démangeaisons",
-            "text2": "Prévention du vieillissement de la peau ",
+            "text2": "Prévention du vieillissement de la peau avec la méthode de soin GUA SHA ( lifting du visage ) + des séances d'acupuncture ",
             "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-pie-chart",
             "name": "Pleine conscience",
-            "text": "Une fois par mois , je vous propose un cours collectif pour préserver votre équilibre mental , énergétique et physique et travailler sur le moment présent. ",
+            "text": "Une fois par mois , je vous propose un cours collectif pour préserver votre équilibre mental , énergétique et physique en travaillant sur le moment présent ",
             "text2": "   ",
             "text3": ":::::::::::::::::::::::::::::: "
         },
@@ -97,14 +97,16 @@
             "icon": "fa fa-pie-chart",
             "name": "Bien-être",
             "text": "Le bien-être est un équilibre physique et mental et l'énergie chinoise est une approche en prévention.",
-            "text2": " Par un bilan énergétique et physique , des soins et conseils vous sont proposés et adaptés à votre situation. "
+            "text2": " Par un bilan énergétique et physique , des soins et conseils vous sont proposés et adaptés à votre situation ",
+            "text3": ":::::::::::::::::::::::::::::: "
         },
         {
             "icon": "fa fa-language",
             "name": "Digestion & émotions",
             "text": "Nos émotions, l'âge, notre alimentation, et les saisons ont un impact sur notre digestion. ",
-            "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques.  "
-         }
+            "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques  ",
+            "text3": ":::::::::::::::::::::::::::::: "
+        }
     ],
     "Testimonials": [{
             "img": "img/testimonials/05-fine-art.jpg",
