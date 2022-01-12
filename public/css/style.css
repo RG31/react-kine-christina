@@ -849,6 +849,7 @@ label {
     font-size: 55px;
   }
 
+  /* burger */
   /* Header Navigation */
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;

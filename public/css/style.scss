@@ -110,9 +110,6 @@ hr {
 	width: 54px;
 	height: 54px;
 }
-.home-maison {
-	//box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
-}
 .navbar-collapse {
     //padding-left: 180;
     text-align: right;
@@ -763,6 +760,7 @@ text-align: center;
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
 }
+
 /* ------------------------------------------------------------------*/
 
 @media (max-width: 768px) {
@@ -771,6 +769,10 @@ h2{
   }
 .intro h1 {
 	font-size: 55px;	
+}
+/* burger */
+.home {
+	//box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
 }
 /* Header Navigation */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
