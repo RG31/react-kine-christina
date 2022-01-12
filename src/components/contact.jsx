@@ -30,7 +30,7 @@ export const Contact = (props) => {
           <h3>Contact</h3>
               <List>
                 <span> {' '}
-                  <List.Item className='fa fa-user-md '> </List.Item> Cabinet 
+                  <List.Item className='fa fa-user-md '> </List.Item> Cabinet Pradal 
                 </span>
                 <h6>{props.data ? props.data.nom : 'loading'}</h6>
                 <span>{' '}
