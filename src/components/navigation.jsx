@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href="#page-top">
+          <a className='navbar-brand page-scroll' href="#accueil">
            <img className="logo" src={myLogo} alt="christina grillet logo" />
           </a>{''}
           <canvas width="60" height="80"></canvas>
@@ -29,17 +29,17 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
 
             <li>
-            <a href='#services' className='page-scroll'>
+            <a href='#soins' className='page-scroll'>
                 Soins
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <a href='#cabinet' className='page-scroll'>
                 Cabinet
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='#témoignages' className='page-scroll'>
                 Témoignages
               </a>
             </li>
