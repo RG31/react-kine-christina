@@ -349,12 +349,12 @@ font-size: 18px;
 	box-shadow: 10px 10px 10px rgba(170, 77, 77, 0.555); 
 }
 
-/* About Section => MON CABINET*/
-#about {
+/* Cabinet Section => MON CABINET*/
+#cabinet {
 	//background: #f6f6f6;
 	padding: 100px 0;
 }
-#about .container {
+#cabinet .container {
 	//background-color:rgb(240, 223, 223);
 	padding: 30px;
 	//border-width: 1px 0 0 0 ;
@@ -363,13 +363,13 @@ font-size: 18px;
 	border-radius: 20px;
 
 }
-#about h2 {
+#cabinet h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 	//text-align: center;
 }
-#about h2::after {
+#cabinet h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #f58de4 0%, #a5eead 100%);
@@ -378,13 +378,13 @@ font-size: 18px;
 	bottom: 0;
 	left: 0;
 }
-#about .about-text li {
+#cabinet .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
+#cabinet .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5cfb84;
@@ -392,13 +392,13 @@ font-size: 18px;
 	font-weight: 300;
 	padding-right: 8px;
 }
-#about img {
+#cabinet img {
 	margin-top: auto;
 	width: 520px;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
 }
-#about p {
+#cabinet p {
 	line-height: 24px;
 	margin: 10px 0;
 	color: black;
@@ -684,6 +684,7 @@ font-size: 18px;
 	border-style:solid dotted;
 	border-color: white;
 	padding: 10px;
+	padding-bottom: 30px;
 }
 #contact h5 {
 	margin-bottom: 10px;
@@ -711,6 +712,7 @@ label {
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
+	
 	display: flex;
 }
 #contact .contact-item .fa {
@@ -720,24 +722,21 @@ label {
 background: linear-gradient(to left, #7a6f75 0%, #171817 100%) !important;
 border-radius: 40px;
 text-align: center;
+padding-bottom: 20px;
 }
 #contact .liste-contact-adress {
 	color: #73d616ba;
 	}
 #contact .liste-contact-tel {
 	color: #d61616ba;
-	
 	}
 #contact .liste-contact-certif {
 	color: #d616acba;
 	}
-
-
 #contact a {
 	//color:#FFFF00;
 	text-decoration:underline;
 	color: white;
-
 	}
 #contact 	a:hover
 {
@@ -798,10 +797,10 @@ margin-top: -30px;
     margin: 15 0 40px;
 }
 /*about*/
-#about img {
+#cabinet img {
 margin-bottom: 60px;
 }
-#about p {
+#cabinet p {
 	padding: 20px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 20px;

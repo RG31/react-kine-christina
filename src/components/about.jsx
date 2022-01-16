@@ -1,7 +1,7 @@
 // https://www.npmjs.com/package/react-show-more-text
-export const About = (props) => {
+export const Cabinet = (props) => {
   return (
-    <div id='about'>
+    <div id='cabinet'>
       <div className='container'>
         <div className='row'>
           <div className='col-xs-12 col-md-6'>

@@ -370,23 +370,23 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   box-shadow: 10px 10px 10px rgba(170, 77, 77, 0.555);
 }
 
-/* About Section => MON CABINET*/
-#about {
+/* Cabinet Section => MON CABINET*/
+#cabinet {
   padding: 100px 0;
 }
 
-#about .container {
+#cabinet .container {
   padding: 30px;
   border-radius: 20px;
 }
 
-#about h2 {
+#cabinet h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
 
-#about h2::after {
+#cabinet h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #f58de4 0%, #a5eead 100%);
@@ -396,14 +396,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   left: 0;
 }
 
-#about .about-text li {
+#cabinet .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
 
-#about .about-text li:before {
+#cabinet .about-text li:before {
   content: "";
   font-family: "FontAwesome";
   color: #5cfb84;
@@ -412,14 +412,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   padding-right: 8px;
 }
 
-#about img {
+#cabinet img {
   margin-top: auto;
   width: 520px;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
 }
 
-#about p {
+#cabinet p {
   line-height: 24px;
   margin: 10px 0;
   color: black;
@@ -754,6 +754,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-style: solid dotted;
   border-color: white;
   padding: 10px;
+  padding-bottom: 30px;
 }
 
 #contact h5 {
@@ -797,6 +798,7 @@ label {
   background: linear-gradient(to left, #7a6f75 0%, #171817 100%) !important;
   border-radius: 40px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #contact .liste-contact-adress {
@@ -880,11 +882,11 @@ label {
   }
 
   /*about*/
-  #about img {
+  #cabinet img {
     margin-bottom: 60px;
   }
 
-  #about p {
+  #cabinet p {
     padding: 20px;
     background-color: white;
     border-radius: 20px;
