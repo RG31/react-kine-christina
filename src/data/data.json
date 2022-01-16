@@ -21,7 +21,7 @@
             "Lorem ipsum dolor"
         ]
     },
-    "Services": [
+    "Soins": [
         {
             "icon": "fa fa-cloud-download",
             "name": "Stress & fatigue - POST covid",
@@ -108,7 +108,7 @@
             "text3": ":::::::::::::::::::::::::::::: "
         }
     ],
-    "Testimonials": [{
+    "Temoignages": [{
             "img": "img/testimonials/05-fine-art.jpg",
             "text": "\"Çela fait plus de 15 ans que je consulte Christine Grillet et je lui ai envoyé toute ma famille. Elle a aidé mon père à mieux vivre au quotidien la maladie de Parkinson et elle a soigné la phobie de ma fille, quand elle avait 12 ans, en moins de 6 séances. Elle a soigné mes douleurs, mon stress et mes insomnies en quelques séances. Christine est une thérapeute bienveillante, très professionnelle et a l’écoute de ses patients, elle est surtout très compétente et très efficace. Je la recommande à 100%.\"",
             "name": "D.K. 48 ans "

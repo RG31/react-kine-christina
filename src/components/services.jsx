@@ -1,11 +1,11 @@
 //npm i react-media-hook --save
 import { useMediaPredicate } from "react-media-hook";
 
-export const Services = (props) => {
+export const Soins = (props) => {
   const smallerThan768 = useMediaPredicate("(max-width: 768px)");
   console.log ("smallerThan768",smallerThan768)
   return (
-    <div id='services' className='text-center'>
+    <div id='soins' className='text-center'>
       <div className='container'>
         <div className='section-title'>
           <h2>Les soins</h2>

@@ -426,12 +426,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-radius: 10px;
 }
 
-/* Services Section => SOINS */
-#services {
+/* Soins Section => SOINS */
+#soins {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
   padding: 100px 0;
-  /*width: 100%;*/
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.jpg);
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -439,11 +438,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   -o-background-size: cover;
 }
 
-#services h2 {
+#soins h2 {
   color: white;
 }
 
-#services .section-title h2::after {
+#soins .section-title h2::after {
   position: absolute;
   content: "";
   background: linear-gradient(to right, #f58de4 0%, #a5eead 100%);
@@ -454,7 +453,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   left: 50%;
 }
 
-#services i.fa {
+#soins i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -465,7 +464,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-#services h3 {
+#soins h3 {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
   font-weight: 800;
   font-family: CaviarDreams;
@@ -476,18 +475,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   text-transform: uppercase;
 }
 
-#services p {
+#soins p {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
   color: white;
   padding: 15px;
 }
 
-#services hr {
+#soins hr {
   height: 2px;
   background: white;
 }
 
-#services .service-desc {
+#soins .service-desc {
   margin: 10px 10px 20px;
   margin-bottom: 40px;
   background-color: rgba(107, 103, 103, 0.877);
@@ -497,21 +496,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   min-height: 50%;
 }
 
-#services .service-desc p {
+#soins .service-desc p {
   text-align: center;
 }
 
-#services .service-desc span {
+#soins .service-desc span {
   font-size: 12px;
 }
 
 /* ---read more -- */
-#services details {
+#soins details {
   position: relative;
   display: inline;
 }
 
-#services details summary {
+#soins details summary {
   display: block;
   cursor: pointer;
   color: #fff;
@@ -525,29 +524,29 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   line-height: 0px;
 }
 
-#services details summary:focus {
+#soins details summary:focus {
   outline: none;
 }
 
-#services details[open] {
+#soins details[open] {
   display: block;
   padding-bottom: 25px;
   padding-top: 10px;
   animation: open linear;
 }
 
-#services details[open] summary {
+#soins details[open] summary {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-#services details #open {
+#soins details #open {
   padding-left: 5px;
   text-align: middle;
 }
 
-#services details #open:after {
+#soins details #open:after {
   display: inline-block;
   position: relative;
   top: -3px;
@@ -556,15 +555,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   transform: rotate(90deg);
 }
 
-#services details[open] #open {
+#soins details[open] #open {
   display: none;
 }
 
-#services details #close {
+#soins details #close {
   display: none;
 }
 
-#services details[open] #close {
+#soins details[open] #close {
   display: block;
 }
 
@@ -627,13 +626,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   opacity: 1;
 }
 
-/* Testimonials Section */
-#testimonials {
+/* Temoignages Section */
+#temoignages {
   padding: 100px 0;
   background: #e2d1d1;
 }
 
-#testimonials i {
+#temoignages i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
@@ -892,12 +891,12 @@ label {
     border-radius: 20px;
   }
 
-  /* services */
-  #services .service-desc {
+  /* soins */
+  #soins .service-desc {
     min-height: 20%;
   }
 
-  #services .service-desc span {
+  #soins .service-desc span {
     font-size: 19px;
   }
 

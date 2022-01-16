@@ -1,7 +1,7 @@
-export const Testimonials = (props) => {
+export const Temoignages = (props) => {
   
   return (
-    <div id='testimonials'>
+    <div id='temoignages'>
       <div className='container'>
         <div className='section-title text-center'>
           <h2>Pourquoi ils m'ont choisie?</h2>

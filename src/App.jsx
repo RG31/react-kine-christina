@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Cabinet } from './components/about'
-import { Services } from './components/services'
-import { Testimonials } from './components/testimonials'
+import { Soins } from './components/services'
+import { Temoignages } from './components/testimonials'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
@@ -24,8 +24,8 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Cabinet data={landingPageData.Cabinet} />
-      <Services data={landingPageData.Services} />
-      <Testimonials data={landingPageData.Testimonials} />
+      <Soins data={landingPageData.Soins} />
+      <Temoignages data={landingPageData.Temoignages} />
       <Contact data={landingPageData.Contact} />
     </div>
   )
