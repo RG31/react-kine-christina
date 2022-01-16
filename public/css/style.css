@@ -573,60 +573,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 /* ---end read more -- */
-/* Portfolio Section => GALERIE */
-#portfolio {
-  padding: 100px 0;
-}
-
-.portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
-}
-
-.portfolio-item .hover-bg {
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-  border-radius: 60px 0px 60px 0px;
-}
-
-.hover-bg .hover-text {
-  position: absolute;
-  text-align: center;
-  margin: 0 auto;
-  color: #fff;
-  background: linear-gradient(to right, #853386 40%, #ff63ea21 100%);
-  padding: 30% 0 0 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.hover-bg .hover-text > h4 {
-  font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
-  opacity: 0;
-  color: #fff;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  transition: all 0.3s;
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-
-.hover-bg:hover .hover-text > h4 {
-  opacity: 1;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.hover-bg:hover .hover-text {
-  opacity: 1;
-}
-
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -857,12 +803,6 @@ label {
     background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;
   }
 
-  #portfolio span {
-    background-color: white;
-    padding: 5px;
-    border-radius: 0px 20px;
-  }
-
   /* Header Section  => TON SITE VITRINE */
   #header .intro-text {
     padding-top: 150px;
@@ -962,16 +902,6 @@ label {
     letter-spacing: 1px;
     text-transform: initial;
   }
-
-  /* Portfolio Section => GALERIE */
-  #portfolio {
-    padding: 100px 0;
-  }
-
-  .portfolio-item {
-    margin: 30px -15px 0 -14px;
-    padding: 0;
-  }
 }
 input:focus,
 select:focus,
@@ -980,6 +910,17 @@ button:focus,
 form-control:focus {
   outline: none;
   outline: transparent;
+}
+
+/* ------------------------------------------------------------------*/
+@media (max-width: 1180px) {
+  #cabinet img {
+    margin-bottom: 40px;
+  }
+
+  #services .service-desc {
+    min-height: 0%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
