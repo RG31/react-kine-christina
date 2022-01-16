@@ -913,14 +913,5 @@ form-control:focus {
 }
 
 /* ------------------------------------------------------------------*/
-@media (max-width: 1180px) {
-  #cabinet img {
-    margin-bottom: 40px;
-  }
-
-  #services .service-desc {
-    min-height: 0%;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
