@@ -598,7 +598,7 @@ font-size: 18px;
 }
 .testimonial-content p {
 	margin-bottom: 0;
-	font-size: 14px;
+	//font-size: 14px;
 	font-style: italic;
 	padding-top: 30px;
 }
@@ -799,9 +799,13 @@ margin-top: -30px;
 margin-bottom: 60px;
 }
 #cabinet p {
+	font-weight: bolder;
 	padding: 20px;
 	background-color: rgb(255, 255, 255);
 	border-radius: 20px;
+}
+.testimonial-content p {
+	font-weight: bolder;
 }
 /* soins */
 #soins .service-desc {

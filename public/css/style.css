@@ -662,7 +662,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
   font-style: italic;
   padding-top: 30px;
 }
@@ -886,9 +885,14 @@ label {
   }
 
   #cabinet p {
+    font-weight: bolder;
     padding: 20px;
     background-color: white;
     border-radius: 20px;
+  }
+
+  .testimonial-content p {
+    font-weight: bolder;
   }
 
   /* soins */
