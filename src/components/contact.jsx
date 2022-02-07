@@ -22,7 +22,9 @@ export const Contact = (props) => {
           <h3>1er RDV</h3>
           <span className="new-line">
           {message}
-              </span>
+          </span>
+          <h1> </h1>
+          <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> ✅ Charte applicable aux sites web professionnels des médecins</a>
           </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
