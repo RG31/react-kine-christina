@@ -21,13 +21,16 @@ export const Navigation = (props) => {
           </a>{''}
           <canvas width="60" height="80"></canvas>
         </div>
-
         <div
           className='collapse x navbar-collapse x'
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-
+            <li>
+            <a href="#accueil" className='page-scroll'>
+               Accueil
+            </a>{''}
+            </li>
             <li>
             <a href='#soins' className='page-scroll'>
                 Soins

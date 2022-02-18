@@ -299,6 +299,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   background-size: cover;
   -o-background-size: cover;
 }
+.intro .bold {
+	font-weight: bold;
+	font-size: 50px;
+}
 
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -848,7 +852,13 @@ label {
   .intro h1 {
     font-size: 55px;
   }
-
+  #menu.navbar-default .navbar-nav > li > a {
+    font-family: "CaviarDreams", "Raleway", sans-serif;
+    font-size: 15px;
+  }
+  .intro .bold {
+    font-size: 40px;
+  }
   /* burger */
   /* Header Navigation */
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
