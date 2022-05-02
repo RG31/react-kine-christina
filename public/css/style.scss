@@ -652,12 +652,10 @@ font-size: 18px;
 	background-size: cover;
 	-o-background-size: cover;
 }
-
 .new-line {
 	white-space: pre-line;
 	text-align: left;
   }
-
 #contact h2 {
 	color: white;
 }
@@ -736,10 +734,17 @@ padding-bottom: 20px;
 	text-decoration:underline;
 	color: white;
 	}
-#contact 	a:hover
+#contact a:hover
 {
 	color: #3ec1f5ba;
 }
+#contact .doctolib {
+	color: rgb(32, 216, 26);
+margin-left: inherit;
+margin-bottom: 0px;
+display: flex;
+text-align: left;
+  }
 
 /* Footer Section*/
 #footer {

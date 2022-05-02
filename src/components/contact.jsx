@@ -3,7 +3,9 @@
 // EMAIL en DUR
 import { List} from 'semantic-ui-react';
 export const Contact = (props) => {
-  const message = ' Pour un premier rendez-vous, veuillez me téléphoner ou m\'envoyer un sms.  \n\n L\'email est réservé uniquement pour le suivi des examens cliniques';
+  //const message = ' Pour un premier rendez-vous, veuillez me téléphoner ou m\'envoyer un sms.  \n\n L\'email est réservé uniquement pour le suivi des examens cliniques';
+  const message2 = ' Voici le lien sur DOCTOLIB pour prendre un RDV';
+
   return (
     <div>
       <div id='contact'>
@@ -18,15 +20,31 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
+        {/* 
+              <div className='contact-item'>
+              <h3>1er RDV</h3>
+              <span className="new-line">
+              {message}
+              </span>
+              <h1> </h1>
+              <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> ✅ Charte applicable aux sites web professionnels des médecins</a>
+              </div>
+              </div>
+        */}
+              
           <div className='contact-item'>
-          <h3>1er RDV</h3>
+          <h3> Mes RDV </h3>
           <span className="new-line">
-          {message}
+          {message2}
           </span>
           <h1> </h1>
-          <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> ✅ Charte applicable aux sites web professionnels des médecins</a>
+          <div className='doctolib'>
+          <a href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet#about"> ✅  DOCTOLIB  </a>
+          
           </div>
           </div>
+          </div>
+        
           <div className='col-md-3 col-md-offset-1 contact-info'>
           <div className='contact-item'>
           <h3>Contact</h3>
