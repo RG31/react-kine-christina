@@ -763,6 +763,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #contact h6 {
   font-size: 16px;
+  color: #fb5cce;
+}
+
+#contact h8 {
+  font-size: 16px;
 }
 
 #contact p {
@@ -808,7 +813,8 @@ label {
 }
 
 #contact .liste-contact-certif {
-  color: #d616acba;
+  color: white;
+  font-size: medium;
 }
 
 #contact a {
@@ -824,7 +830,7 @@ label {
   color: #20d81a;
   margin-left: inherit;
   margin-bottom: 0px;
-  display: flex;
+  display: block;
   text-align: left;
 }
 

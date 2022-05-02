@@ -689,6 +689,10 @@ font-size: 18px;
 }
 #contact h6 {
 	font-size: 16px;
+	color: #fb5cce;
+}
+#contact h8 {
+	font-size: 16px;
 }
 #contact p {
 	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
@@ -708,7 +712,6 @@ label {
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
-	
 	display: flex;
 }
 #contact .contact-item .fa {
@@ -726,9 +729,11 @@ padding-bottom: 20px;
 #contact .liste-contact-tel {
 	color: #d61616ba;
 	}
+
 #contact .liste-contact-certif {
-	color: #d616acba;
-	}
+	color: white;
+	font-size:medium;
+		}
 #contact a {
 	//color:#FFFF00;
 	text-decoration:underline;
@@ -742,7 +747,7 @@ padding-bottom: 20px;
 	color: rgb(32, 216, 26);
 margin-left: inherit;
 margin-bottom: 0px;
-display: flex;
+display: block;
 text-align: left;
   }
 
