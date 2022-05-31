@@ -8,6 +8,7 @@ $buton-header-gradient-2: #ff63ea21;
 $buton-header-gradient-3: #cc92c985;
 
 $buton-header-active:  #86226f5e;
+$buton-header-no-active: white;
 $icon-shadow:  #ad2e905e;
 
 /* supprimer le focus de la sélection
@@ -241,7 +242,7 @@ hr {
 }
 .btn-custom {
 color: #fff;
-border-radius: 25px;
+border-radius: 50px;
 transition: all 0.5s linear;
 border: 0;
 margin-bottom: 60px;
@@ -252,14 +253,14 @@ height: 70px;
 //background: transparent;
 background-image:url("../img/doctolib-icone-.png");
 background-size: contain;
-background-color: white;
 background-repeat: no-repeat;
+background-color: $buton-header-active;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image:url("../img/doctolib-icone-.png");
 	/* @RG31 couleur bouton */
-	background-color: $buton-header-active;
+	background-color: $buton-header-no-active;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -801,6 +802,13 @@ h2{
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
     padding-top: 150px;
+}
+#header .top-intro-text {
+	font-size: 45px;
+}
+
+#header .sub-intro-text {
+    font-size: 30px;
 }
 .btn-custom {
 	width: 150px;

@@ -11,13 +11,12 @@ export const Header = (props) => {
                 {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
-                <p className="top-intro-text">    
+                <p className='top-intro-text'>    
                   {props.data ? props.data.more : 'Loading'}
-                  </p>
-                  <p className="sub-intro-text">    
+                </p>
+                <p className='sub-intro-text'>    
                   {props.data ? props.data.paragraph : 'Loading'}
-                  
-                  </p>
+                </p>
                 </div>
                 
                 <a 

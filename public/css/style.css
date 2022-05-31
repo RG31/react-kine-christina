@@ -247,11 +247,13 @@ hr {
   left: 50%;
 }
 
-
+.section-title p {
+  font-size: 18px;
+}
 
 .btn-custom {
   color: #fff;
-  border-radius: 25px;
+  border-radius: 50px;
   transition: all 0.5s linear;
   border: 0;
   margin-bottom: 60px;
@@ -260,15 +262,15 @@ hr {
   height: 70px;
   background-image: url("../img/doctolib-icone-.png");
   background-size: contain;
-  background-color: white;
   background-repeat: no-repeat;
+  background-color: #86226f5e;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
   color: #fff;
   background-image: url("../img/doctolib-icone-.png");
   /* @RG31 couleur bouton */
-  background-color: #86226f5e;
+  background-color: white;
 }
 
 .btn:active, .btn.active {
@@ -290,9 +292,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   text-align: center;
 }
 
-#header .top-intro-text {
-  font-size: 60px;
-}
 #header .sub-intro-text {
   font-size: 40px;
 }
@@ -338,12 +337,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   font-size: 15px;
 }
 
-#header .sub-intro-text {
-  padding-top: 80px;
-}
-
 #header .intro p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* Features Section  => PRATIQUES */
@@ -734,9 +729,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   -o-background-size: cover;
 }
 
-#contact a {
- text-align: left;
-}
 .new-line {
   white-space: pre-line;
   text-align: left;
@@ -892,24 +884,23 @@ label {
   }
 
   /* Header Section  => TON SITE VITRINE */
- 
+  #header .intro-text {
+    padding-top: 150px;
+  }
+
+  #header .top-intro-text {
+    font-size: 45px;
+  }
+
+  #header .sub-intro-text {
+    font-size: 30px;
+  }
 
   .btn-custom {
     width: 150px;
     height: 60px;
     background-size: 100%;
     background-repeat: no-repeat;
-  }
-
-  #header .sub-intro-text {
-    font-size: 30px;
-    padding-top: 60px;
-  }
-  #header .top-intro-text {
-    font-size: 40px;
-  }
-  #header .intro-text {
-    padding-top: 150px;
   }
 
   /* Features Section  => PRATIQUES */
@@ -979,6 +970,7 @@ label {
     color: #fff;
     margin-top: 40px;
   }
+
   #contact .thanks {
     font-size: 15px;
     border-radius: 30px 0px 30px 0px;
