@@ -4,7 +4,7 @@
 import { List} from 'semantic-ui-react';
 export const Contact = (props) => {
   //const message = ' Pour un premier rendez-vous, veuillez me téléphoner ou m\'envoyer un sms.  \n\n L\'email est réservé uniquement pour le suivi des examens cliniques';
-  const message2 = ' Voici le lien sur DOCTOLIB pour prendre un RDV';
+  //const message2 = ' Voici le lien sur DOCTOLIB pour prendre un RDV';
 
   return (
     <div>
@@ -19,35 +19,9 @@ export const Contact = (props) => {
               </div>
             </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
-        {/* 
-              <div className='contact-item'>
-              <h3>1er RDV</h3>
-              <span className="new-line">
-              {message}
-              </span>
-              <h1> </h1>
-              <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> ✅ Charte applicable aux sites web professionnels des médecins</a>
-              </div>
-              </div>
-        */}
-              
-          <div className='contact-item'>
-          <h3> Mes RDV </h3>
-          <span className="new-line">
-          {message2}
-          </span>
-          <h1> </h1>
-          <div className="doctolib">
-          <a href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet#about"> 📅 <span></span> DOCTOLIB  </a>
 
-          <h1> </h1>
-              <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> ✅ <span></span> Charte des médecins</a>
-          </div>
-          </div>
-          </div>
         
-          <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='col-md-3 col-md-offset-2 contact-info'>
           <div className='contact-item'>
           <h3>Contact</h3>
               <List>
@@ -76,7 +50,7 @@ export const Contact = (props) => {
               </List>
               </div>
           </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='col-md-3 col-md-offset-2 contact-info'>
           <div className='contact-item'>
           <h3>Diplômes</h3>
                <List>
@@ -95,11 +69,15 @@ export const Contact = (props) => {
                   <List.Item className='liste-contact-certif'>{props.data ? props.data.ref3 : 'ref3'}
                   </List.Item> 
                   </h6> {' '}
+                  <h6>  ✅  </h6>
+                  <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> Charte des médecins</a>
               </List>
          </div>
          </div>
         </div>
+        <h1> </h1>
       </div>
+      
       <div id='footer'>
         <div className='container text-center'>
           <p>

@@ -247,9 +247,7 @@ hr {
   left: 50%;
 }
 
-.section-title p {
-  font-size: 18px;
-}
+
 
 .btn-custom {
   color: #fff;
@@ -258,13 +256,17 @@ hr {
   border: 0;
   margin-bottom: 60px;
   border: 2px solid #fff;
-  background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-  box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
+  width: 180px;
+  height: 70px;
+  background-image: url("../img/doctolib-icone-.png");
+  background-size: contain;
+  background-color: white;
+  background-repeat: no-repeat;
 }
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
   color: #fff;
-  background-image: none;
+  background-image: url("../img/doctolib-icone-.png");
   /* @RG31 couleur bouton */
   background-color: #86226f5e;
 }
@@ -286,6 +288,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: center;
+}
+
+#header .top-intro-text {
+  font-size: 60px;
+}
+#header .sub-intro-text {
+  font-size: 40px;
 }
 
 .intro {
@@ -319,7 +328,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro p {
   font-family: CaviarDreams;
   color: #fff;
-  font-size: 32px;
+  font-size: 62px;
   margin: 0 auto;
 }
 
@@ -329,8 +338,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   font-size: 15px;
 }
 
+#header .sub-intro-text {
+  padding-top: 80px;
+}
+
 #header .intro p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 /* Features Section  => PRATIQUES */
@@ -721,6 +734,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   -o-background-size: cover;
 }
 
+#contact a {
+ text-align: left;
+}
 .new-line {
   white-space: pre-line;
   text-align: left;
@@ -876,9 +892,23 @@ label {
   }
 
   /* Header Section  => TON SITE VITRINE */
-  #header .intro-text {
-    padding-top: 150px;
+ 
+
+  .btn-custom {
+    width: 150px;
+    height: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
+
+  #header .sub-intro-text {
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  #header .top-intro-text {
+    font-size: 40px;
+  }
+
 
   /* Features Section  => PRATIQUES */
   #features {
@@ -947,7 +977,6 @@ label {
     color: #fff;
     margin-top: 40px;
   }
-
   #contact .thanks {
     font-size: 15px;
     border-radius: 30px 0px 30px 0px;

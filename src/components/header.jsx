@@ -11,18 +11,19 @@ export const Header = (props) => {
                 {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
-                <p className="bold">    
+                <p className="top-intro-text">    
                   {props.data ? props.data.more : 'Loading'}
                   </p>
-                  <p>    
+                  <p className="sub-intro-text">    
                   {props.data ? props.data.paragraph : 'Loading'}
+                  
                   </p>
                 </div>
+                
                 <a 
-                  href='#contact'
+                  href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet#about"
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  Me contacter
                 </a>{' '}
               </div>
             </div>

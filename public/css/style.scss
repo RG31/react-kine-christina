@@ -246,14 +246,18 @@ transition: all 0.5s linear;
 border: 0;
 margin-bottom: 60px;
 border: 2px solid #fff;
+width: 180px;
+height: 70px;
 //background-color: rgba(0, 0, 0, 0.253);
 //background: transparent;
-background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
-box-shadow: 10px 10px 10px rgba(180, 240, 14, 0.555);
+background-image:url("../img/doctolib-icone-.png");
+background-size: contain;
+background-color: white;
+background-repeat: no-repeat;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-image: none;
+	background-image:url("../img/doctolib-icone-.png");
 	/* @RG31 couleur bouton */
 	background-color: $buton-header-active;
 }
@@ -273,6 +277,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-top: 250px;
 	padding-bottom: 250px;
 	text-align: center;
+}
+#header .sub-intro-text {
+	font-size: 40px;
+
 }
 // Le texte dans data.json fera varier l'image en background 
 .intro {
@@ -302,7 +310,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro p {
 	font-family: CaviarDreams;
 	color: #fff;
-	font-size: 32px;
+	font-size: 62px;
 	margin: 0 auto;
 
 }
@@ -794,6 +802,12 @@ h2{
 #header .intro-text {
     padding-top: 150px;
 }
+.btn-custom {
+	width: 150px;
+	height: 60px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	}
 /* Features Section  => PRATIQUES */
 #features {
 margin-top: -30px;
