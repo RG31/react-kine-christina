@@ -908,7 +908,9 @@ label {
   #header .top-intro-text {
     font-size: 40px;
   }
-
+  #header .intro-text {
+    padding-top: 150px;
+  }
 
   /* Features Section  => PRATIQUES */
   #features {
