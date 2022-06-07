@@ -362,6 +362,8 @@ font-size: 18px;
 #cabinet {
 	//background: #f6f6f6;
 	padding: 100px 0;
+		padding: 40px;
+		border-radius: 50 0;
 }
 #cabinet .container {
 	//background-color:rgb(240, 223, 223);
@@ -370,22 +372,26 @@ font-size: 18px;
 	//border-style: solid;
 	//border-color: #3b2a3b56;
 	border-radius: 20px;
-
+	margin-top:20px ;
+	margin-bottom: 20px;
 }
 #cabinet h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	//text-align: center;
 }
 #cabinet h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #f58de4 0%, #a5eead 100%);
+	background: linear-gradient(to right, hsl(310, 84%, 76%) 0%, #a5eead 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
 	left: 0;
+	text-align: center;
+}
+#cabinet .about-text p{
+
 }
 #cabinet .about-text li {
 	margin-bottom: 6px;
@@ -402,16 +408,19 @@ font-size: 18px;
 	padding-right: 8px;
 }
 #cabinet img {
-	margin-top: auto;
-	width: 520px;
+	width: 100%;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 #cabinet p {
 	line-height: 24px;
-	margin: 10px 0;
+	margin: 30px 0;
 	color: black;
 	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 60px;
 }
 /* Soins Section => SOINS */
 #soins {
@@ -606,10 +615,15 @@ font-size: 18px;
 	overflow: hidden;
 }
 .testimonial-content p {
-	margin-bottom: 0;
-	//font-size: 14px;
-	font-style: italic;
-	padding-top: 30px;
+	display:block;
+	cursor: pointer;
+	color: rgb(82, 80, 80);
+	background-color: white;
+	border-radius: 0px 40px 0px 40px;
+	padding: 20px;
+	//margin-bottom: 30px;
+	box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
+	//line-height: 0px;
 }
 .testimonial-meta {
 	margin-top: 10px;
@@ -628,6 +642,55 @@ font-size: 18px;
 	box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
 	//line-height: 0px;
   }
+
+/* ---read more -- */
+.testimonial details {
+	position:relative;
+
+  }
+  .testimonial details summary {
+	display:block;
+	cursor: pointer;
+	color:#fff;
+	font-weight: bolder;
+	border: solid;
+	background-color: rgba(107, 103, 103, 0.877);
+	background-color: rgba(107, 103, 103, 0.877);
+	border-radius: 60px 0px 60px 0px;
+	padding: 15px;
+	box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
+	line-height: 0px;
+  }
+  .testimonial details summary:focus {
+	outline:none;
+  }
+  .testimonial details[open] {
+	display:block;
+	padding-bottom:25px;
+	padding-top:10px;
+	animation: open linear;
+  }
+  .testimonial details[open] summary {
+	position:absolute;
+	bottom: 0;
+	left:0;
+  }
+  .testimonial details #open{padding-left:5px;text-align:middle;}
+  .testimonial details #open:after{
+	  display: inline-block;
+	  position:relative;
+	  top: -3px;
+	  padding-left: 8px;
+	  content: "\00bb";
+	  transform: rotate(90deg);
+  }
+  .testimonial details[open] #open{display:none;}
+  .testimonial details #close{display:none;}
+  .testimonial details[open] #close{display:block;}
+  ::-webkit-details-marker {display: none;}
+/* ---end read more -- */  
+
+
 /* Team Section */
 #team {
 	padding: 100px 0;
@@ -827,14 +890,20 @@ margin-top: -30px;
     margin: 15 0 40px;
 }
 /*about*/
+#cabinet .container {
+	border-radius: 20px;
+	margin-top:20px ;
+	margin-bottom: 0px;
+}
 #cabinet img {
-margin-bottom: 60px;
+margin-bottom: 10px;
 }
 #cabinet p {
 	font-weight: bolder;
-	padding: 20px;
-	background-color: rgb(255, 255, 255);
+	background-color:rgb(32, 216, 26, 10%);
 	border-radius: 20px;
+	padding: 20px;
+
 }
 .testimonial-content p {
 	font-weight: bolder;

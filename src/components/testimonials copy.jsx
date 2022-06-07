@@ -1,8 +1,5 @@
-import { useMediaPredicate } from "react-media-hook";
-
 export const Temoignages = (props) => {
-  const smallerThan768 = useMediaPredicate("(max-width: 768px)");
-  console.log ("smallerThan768",smallerThan768)
+  
   return (
     <div id='temoignages'>
       <div className='container'>
@@ -19,21 +16,11 @@ export const Temoignages = (props) => {
                       <img src={d.img} alt='' />{' '}
                     </div>
                     <div className='testimonial-content'>
-                     {smallerThan768 && 
-                      <details >
-                        <summary>
-                          <span id="open"> Détails  </span>
-                          <span id="close"> Fermer  </span>
-                        </summary>
+                      <details open>
                         <p paragraph>"{d.text}" </p>
                       </details>
-                    }
-                    {!smallerThan768 && 
-                      <p paragraph>"{d.text}" </p>
-                    }
                       <div className='testimonial-meta'> - {d.name} </div>
                     </div>
-                    
                   </div>
                 </div>
               ))
