@@ -11,6 +11,7 @@ export const Cabinet = (props) => {
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
+
               <p>{props.data ? props.data.paragraph : 'loading...'}</p>
               <p>{props.data ? props.data.paragraph1 : 'loading...'}</p>
               <p>{props.data ? props.data.paragraph2 : 'loading...'}</p>
