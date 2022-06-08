@@ -114,19 +114,6 @@ hr {
   text-align: right;
 }
 
-#menu.navbar-default {
-  border-color: rgba(231, 231, 231, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-
-#menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #333;
-  text-transform: uppercase;
-}
-
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "CaviarDreams", "Raleway", sans-serif;
   font-family: "CaviarDreams_Bold", "Raleway", sans-serif;
@@ -384,9 +371,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Cabinet Section => MON CABINET*/
 #cabinet .container {
   padding-top: 140px;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  min-height: 100%;
+  width: 100%;
 }
 
 #cabinet h2 {
@@ -414,7 +400,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   width: 100%;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 60px;
 }
 
@@ -425,14 +411,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   color: black;
   border-radius: 10px;
   font-size: 18px;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-right: 0px;
   font-family: CaviarDreams;
 }
 
 /* Soins Section => SOINS */
 #soins {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
-  padding: 100px 0;
+  padding: 140px 0;
   background: url(../img/intro-bg.jpg);
   color: white;
   -webkit-background-size: cover;
@@ -632,8 +619,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 /* Temoignages Section */
 #temoignages {
-  padding: 100px 0;
   background: #e2d1d1;
+  padding-top: 140px;
+  min-height: 100%;
+  width: 100%;
 }
 
 #temoignages i {
@@ -671,7 +660,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   color: #525050;
   background-color: white;
   border-radius: 0px 40px 0px 40px;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
 }
 
@@ -786,6 +775,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact {
   font-family: "CaviarDreams_Bold", "Raleway", sans-serif;
   padding: 100px 0 60px 0;
+  padding-top: 150px;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
   display: table;
@@ -923,6 +913,8 @@ label {
 
 #footer a {
   color: #608dfd;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #footer a:hover {
@@ -954,6 +946,8 @@ label {
   /* Header Section  => TON SITE VITRINE */
   #header .intro-text {
     padding-top: 150px;
+    min-height: 100%;
+    width: 100%;
   }
 
   #header .top-intro-text {
@@ -986,23 +980,16 @@ label {
     padding-top: 100px;
   }
 
+  #cabinet .row {
+    padding-left: 0px;
+  }
+
   #cabinet p {
     font-weight: bolder;
     border-radius: 20px;
     padding: 20px 8px;
     background-color: #f0dfdf;
     margin-top: 10px;
-    /*
-    	#cabinet p {
-    		line-height: 24px;
-    		margin: 0px;
-    		padding: 0px;
-    		color: black;
-    		border-radius: 10px;
-    		font-size: 15px;
-    		margin-top: 40px;
-    		font-family: CaviarDreams;
-    	}*/
   }
 
   #cabinet .about-text {
@@ -1013,7 +1000,11 @@ label {
     font-weight: bolder;
   }
 
-  /* soins */
+  .testimonial-content p {
+    padding: 15px;
+  }
+
+  /* soins ---------------------- */
   #soins .service-desc {
     min-height: 20%;
   }

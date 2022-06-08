@@ -81,8 +81,8 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 React Site Vitrine. Design by @RG31 {' '}
-              Responsive website built with Bootstrap
+            &copy; 2021 React Site Vitrine. Design by 
+            <a href='mailto:regina.garcia31@gmail.com'>  @RG31</a> {' '}
           </p>
         </div>
       </div>

@@ -116,16 +116,10 @@ hr {
     text-align: right;
 }
 #menu.navbar-default {
-	//background-color: rgba(0,0,0,0.2);
-	border-color: rgba(231, 231, 231, 0);
-	box-shadow: 0 0 10px rgba(0,0,0,0.15);
+
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	color: #333;
-	text-transform: uppercase;
+
 }
 #menu.navbar-default .navbar-nav > li > a {
 	//font-family: 'Lato', sans-serif;
@@ -364,14 +358,9 @@ font-size: 18px;
 /* Cabinet Section => MON CABINET*/
 
 #cabinet .container {
-	//background-color:rgb(240, 223, 223);
 	padding-top: 140px;
-	//border-width: 1px 0 0 0 ;
-	//border-style: solid;
-	//border-color: #3b2a3b56;
-	border-radius: 20px;
-	margin-top:20px ;
-	margin-bottom: 20px;
+	min-height: 100%;
+    width: 100%;
 }
 #cabinet h2 {
 	position: relative;
@@ -388,6 +377,9 @@ font-size: 18px;
 	left: 0;
 	text-align: center;
 }
+#cabinet .row h3 {
+
+	}
 #cabinet .about-text {
 padding-left: 30px;
 }
@@ -401,7 +393,7 @@ padding-left: 30px;
 	width: 100%;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.829);
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 }
 #cabinet p {
@@ -411,13 +403,14 @@ padding-left: 30px;
 	color: black;
 	border-radius: 10px;
 	font-size: 18px;
-	margin-top: 60px;
+	margin-top: 30px;
+	margin-right: 0px;
 	font-family: CaviarDreams;
 }
 /* Soins Section => SOINS */
 #soins {
 	font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
-	padding: 100px 0;
+	padding: 140px 0;
 	background: url(../img/intro-bg.jpg) ;
 	color: white;
 	-webkit-background-size: cover;
@@ -582,8 +575,10 @@ padding-left: 30px;
 }
 /* Temoignages Section */
 #temoignages {
-	padding: 100px 0;
 	background:rgb(226, 209, 209);
+		padding-top: 140px;
+		min-height: 100%;
+		width: 100%;
 }
 #temoignages i {
 	color: #e6e6e6;
@@ -615,7 +610,7 @@ padding-left: 30px;
 	color: rgb(82, 80, 80);
 	background-color: white;
 	border-radius: 0px 40px 0px 40px;
-	padding: 20px;
+	padding: 40px;
 	//margin-bottom: 30px;
 	box-shadow: 20px 20px 20px rgba(170, 77, 77, 0.555);
 	//line-height: 0px;
@@ -708,6 +703,7 @@ padding-left: 30px;
 #contact {
 	font-family: 'CaviarDreams_Bold', 'Raleway', sans-serif;
 	padding: 100px 0 60px 0;
+	padding-top: 150px;
 	text-align: center;
 	color: rgba(255,255,255,.75);
 	display: table;
@@ -830,9 +826,12 @@ text-align: left;
 }
 #footer a {
 	color: #608dfd;
+	font-weight: bold;
+	font-size: 18px;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
+
 }
 
 /* ------------------------------------------------------------------*/
@@ -859,7 +858,9 @@ h2{
 }
 /* Header Section  => TON SITE VITRINE */
 #header .intro-text {
-    padding-top: 150px;
+		padding-top: 150px;
+		min-height: 100%;
+		width: 100%;
 }
 #header .top-intro-text {
 	font-size: 45px;
@@ -883,17 +884,14 @@ margin-top: -30px;
 }
 /*about*/
 #cabinet .container {
-
-}
-
-#cabinet .container {
 	//background-color:rgb(240, 223, 223);
 	padding-top: 100px;
 }
-
-#cabinet img {
-
+#cabinet .row {
+	//background-color:rgb(240, 223, 223);
+	padding-left: 0px;
 }
+
 #cabinet p {
 	font-weight: bolder;
 	//background-color:rgb(32, 216, 26, 10%);
@@ -901,17 +899,6 @@ margin-top: -30px;
 	padding: 20px 8px;
     background-color:rgb(240, 223, 223);
 	margin-top: 10px;
-/*
-	#cabinet p {
-		line-height: 24px;
-		margin: 0px;
-		padding: 0px;
-		color: black;
-		border-radius: 10px;
-		font-size: 15px;
-		margin-top: 40px;
-		font-family: CaviarDreams;
-	}*/
 
 }
 #cabinet .about-text {
@@ -920,7 +907,13 @@ margin-top: -30px;
 .testimonial-content p {
 	font-weight: bolder;
 }
-/* soins */
+.testimonial-content p {
+	padding: 15px;
+}
+
+
+
+/* soins ---------------------- */
 #soins .service-desc {
 	min-height: 20%;
 }
