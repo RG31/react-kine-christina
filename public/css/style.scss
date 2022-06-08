@@ -245,7 +245,7 @@ color: #fff;
 border-radius: 50px;
 transition: all 0.5s linear;
 border: 0;
-margin-bottom: 60px;
+margin-bottom: 0px;
 margin-top: 60px;
 border: 2px solid #fff;
 width: 180px;
@@ -869,12 +869,7 @@ h2{
     font-size: 30px;
 }
 .btn-custom {
-	margin-top: 30px;
-	margin-top: 60px;
-	width: 150px;
-	height: 60px;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	margin-top: 20px;
 	}
 /* Features Section  => PRATIQUES */
 #features {
@@ -1019,7 +1014,3 @@ form-control:focus
 	outline: transparent;
 }
 /* ------------------------------------------------------------------*/
-
-@media (max-width: 768px) {
-
-}
