@@ -472,8 +472,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   font-weight: 800;
   font-family: CaviarDreams;
   font-size: 18px;
-  padding: 25px 0 0 0;
+  padding: 25px;
   color: #f58de4;
+  padding-bottom: 0px;
   border-width: 0px 0px 1px 0px;
   text-transform: uppercase;
 }
@@ -496,7 +497,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-right: 2px solid white;
   border-top: 2px solid white;
   border-radius: 25px;
-  min-height: 50%;
+  min-height: 20%;
 }
 
 #soins .service-desc p {
@@ -643,7 +644,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .testimonial {
   position: relative;
-  padding: 20px;
+  padding: 0px;
+  padding-top: 20px;
 }
 
 .testimonial-image {

@@ -453,9 +453,9 @@ padding-left: 30px;
 	font-weight: 800;
 	font-family: CaviarDreams;
     font-size: 18px;
-	padding: 25px 0 0 0;
+	padding: 25px;
 	color: #f58de4;
-
+	padding-bottom: 0px;
 	border-width:0px 0px 1px 0px;
 	text-transform: uppercase;
 }
@@ -476,10 +476,11 @@ padding-left: 30px;
 	border-right:2px solid rgb(255, 255, 255); 
 	border-top:2px solid rgb(255, 255, 255); 
 	border-radius: 25px;
-	min-height: 50%;
+	min-height: 20%;
 }
 #soins .service-desc p {
 	text-align: center;
+
 }
 #soins .service-desc span {
 	font-size: 12px;
@@ -591,7 +592,8 @@ padding-left: 30px;
 }
 .testimonial {
 	position: relative;
-	padding: 20px;
+	padding: 0px;
+	padding-top: 20px;
 }
 .testimonial-image {
 	float: left;
@@ -1016,7 +1018,6 @@ form-control:focus
     outline: none;
 	outline: transparent;
 }
-
 /* ------------------------------------------------------------------*/
 
 @media (max-width: 768px) {

@@ -21,7 +21,7 @@ export const Soins = (props) => {
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <hr></hr>
-             
+                    {smallerThan768 && 
                     <details> 
                       <summary>
                          <span id="open"> Détails  </span>
@@ -31,8 +31,14 @@ export const Soins = (props) => {
                         <p>{d.text2}</p>
                         <p>{d.text3}</p>
                     </details>
-                    
-
+                    }
+                     {!smallerThan768 && 
+                     <div> 
+                     <p>{d.text}</p>
+                     <p>{d.text2}</p>
+                     <p>{d.text3}</p>
+                     </div>
+                        }   
                   </div>
                 </div>
               ))
