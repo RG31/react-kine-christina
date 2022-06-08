@@ -257,6 +257,7 @@ hr {
   transition: all 0.5s linear;
   border: 0;
   margin-bottom: 60px;
+  margin-top: 60px;
   border: 2px solid #fff;
   width: 180px;
   height: 70px;
@@ -294,6 +295,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #header .sub-intro-text {
   font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .intro {
@@ -960,6 +963,8 @@ label {
   }
 
   .btn-custom {
+    margin-top: 30px;
+    margin-top: 60px;
     width: 150px;
     height: 60px;
     background-size: 100%;
