@@ -1,7 +1,7 @@
 
 ##### @RG31
 
-# kine-christine
+# kine-christina
 
 ### <a href="https://art-de-guerir.netlify.app/">DÉMO EN DIRECT</a>
 
