@@ -128,18 +128,6 @@ hr {
   text-shadow: 10px 10px 10px rgba(18, 19, 17, 0.555);
 }
 
-#menu.navbar-default .navbar-nav > li > a:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(to right, #eea5ea 0%, #fb5cee 100%);
-  content: "";
-  transition: width 0.2s ease-out;
-}
-
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
@@ -154,14 +142,15 @@ hr {
   left: 0 !important;
   bottom: -1px !important;
   width: 100% !important;
-  height: 2px !important;
+  height: 4px !important;
   background: linear-gradient(to right, #a5eead 0%, #fb5cee 100%) !important;
   content: "" !important;
   transition: width 0.2s ease-out !important;
 }
 
 .navbar-toggle {
-  border-radius: 0;
+  /*border-radius: 0;*/
+  padding: 20px;
   background-image: linear-gradient(to right, #eab4eaf7 0%, #ff63ea21 100%);
 }
 

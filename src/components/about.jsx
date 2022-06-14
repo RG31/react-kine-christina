@@ -17,7 +17,7 @@ export const Cabinet = (props) => {
                       <p>{props.data ? props.data.paragraph1 : 'loading...'}</p>
                       <p>{props.data ? props.data.paragraph2 : 'loading...'}</p>
                     </div>
-                    <h3></h3>
+                    <h3> </h3>
                   </div>
                   </div>
             </div>
