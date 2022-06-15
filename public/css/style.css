@@ -110,17 +110,12 @@ hr {
   height: 54px;
 }
 
-.navbar-collapse {
-  text-align: right;
-}
-
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "CaviarDreams", "Raleway", sans-serif;
   font-family: "CaviarDreams_Bold", "Raleway", sans-serif;
   text-transform: uppercase;
   color: #614407;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15px;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
@@ -924,6 +919,15 @@ label {
   /* Header Navigation */
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: linear-gradient(to right, #f9f7f8 0%, #f5ca3eba 100%) !important;
+  }
+
+  .navbar-collapse {
+    text-align: left;
+  }
+
+  #menu.navbar-default .navbar-nav > li > a {
+    font-size: 10px;
+    padding: 2px 2px;
   }
 
   #portfolio span {
