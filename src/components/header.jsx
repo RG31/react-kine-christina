@@ -20,7 +20,9 @@ export const Header = (props) => {
                 </div>
                 
                 <a 
-                  href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet#about"
+                  href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet#about" 
+                  rel="noreferrer noopener" 
+                  target="_blank"
                   className='btn btn-custom btn-lg page-scroll'
                 >
                 </a>{' '}
