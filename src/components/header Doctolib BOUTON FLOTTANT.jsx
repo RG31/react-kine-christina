@@ -26,6 +26,17 @@ export const Header = (props) => {
                   className='btn btn-custom btn-lg page-scroll'
                 >
                 </a>{' '}
+                <div className='doctolib'>
+                    <a 
+                      href="https://www.doctolib.fr/masseur-kinesitherapeute/tournefeuille/christina-grillet?utm_campaign=website-button&amp;utm_source=christina-grillet-website-button&amp;utm_medium=referral&amp;utm_content=option-5&amp;utm_term=christina-grillet" 
+                      target="_blank"
+                    >
+                    <span>Prendre rendez-vous en ligne</span>
+                    <img 
+                        src="https://pro.doctolib.fr/external_button/doctolib-white-transparent.png" 
+                        alt="Doctolib"/>
+                    </a>
+                </div>
               </div>
             </div>
           </div>
