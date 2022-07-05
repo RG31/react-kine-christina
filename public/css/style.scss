@@ -253,6 +253,42 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.btn-pdf {
+	//color: #fff;
+	//border-radius: 50px;
+	transition: all 0.5s linear;
+	border: 0;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	//border: 2px solid #fff;
+	width: 50px;
+	height: 50px;
+	//background-color: rgba(0, 0, 0, 0.253);
+	//background: transparent;
+	background-image:url("../img/fichier-pdf.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	//background-color: $buton-header-active;
+	}
+	.btn-pdf:hover, .btn-pdf:focus, .btn-pdf.focus, .btn-pdf:active, .btn-pdf.active {
+		color: #fff;
+		background-image:url("../img/fichier-pdf.png");
+		/* @RG31 couleur bouton */
+		border: 2px solid rgb(255, 255, 255);
+	}
+	// Sup
+	.btn:active, .btn.active {
+		background-image: none;
+		outline: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	// Sup
+	a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+		outline: none;
+		outline-offset: none;
+	}
 /* Header Section  => TON SITE VITRINE */
 // HEADER
 #header .intro-text {
@@ -473,6 +509,10 @@ padding-left: 30px;
 #soins hr {
 	height: 2px;
 	background: white;
+}
+#soins .pdf  {
+	margin-top: 50px;
+	color: white;
 }
 #soins .service-desc {
 	margin: 10px 10px 20px ;

@@ -11,7 +11,18 @@ export const Soins = (props) => {
           <h2>Les soins</h2>
           <span>
           Je vous accompagne pour prendre soin de vous. </span>
-        </div>
+        <div  className='pdf'>
+        <span>
+        Plus d'infos sur la COVID-19 👉  
+        <a 
+        href="https://drive.google.com/file/d/1Yg38PHe56UItKUrbmYBRKYpNqTk8E35b/view?usp=sharing" 
+        rel="noreferrer noopener" 
+        target="_blank"
+        className='btn btn-pdf'
+      >
+      </a>{' '} </span>
+      </div>
+      </div>
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
