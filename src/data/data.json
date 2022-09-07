@@ -30,6 +30,27 @@
             "text3": "::::::::::::::::::::::::::::::"
         },
         {
+            "icon": "fa fa-pie-chart",
+            "name": "Pédiatrie",
+            "text": "Bilan de naissance - nouveaux nés et leur problématique - suivi de croissance et scoliose",
+            "text2": "Puberté et leur problématique des blessures sportives - maux de tête et maux de ventre ",
+            "text3": ":::::::::::::::::::::::::::::: "
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Gynécologie",
+            "text": "Douleurs et irrégularités des règles - peau acnéique pour les adolescents ",
+            "text2": "Femme enceinte - préménopause - menopause",
+            "text3": ":::::::::::::::::::::::::::::: "
+          },
+          {
+            "icon": "fa fa-language",
+            "name": "Nutritions & émotions",
+            "text": "Nos émotions, l'âge, notre alimentation, et les saisons ont un impact sur notre digestion. ",
+            "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques  ",
+            "text3": ":::::::::::::::::::::::::::::: "
+        },
+        {
             "icon": "fa fa-wordpress",
             "name": "Douleur chronique & aiguë",
             "text": "Cervicalgies dorsalgie lombalgies - tendinites - blocages articulaires ",
@@ -42,7 +63,6 @@
             "text": "Accidents",
             "text2":"Blessures sportives",
             "text3": ":::::::::::::::::::::::::::::: "
-
         },
         {
             "icon": "fa fa-plane",
@@ -53,30 +73,9 @@
           },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Gynécologie",
-            "text": "Douleurs et irrégularités des règles - peau acnéique pour les adolescents ",
-            "text2": "Femme enceinte - préménopause - menopause",
-            "text3": ":::::::::::::::::::::::::::::: "
-          },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Problèmes liés à l'âge ",
-            "text": "Sagesse - vitalité ",
-            "text2": "Sommeil - vieillissement cutané ",
-            "text3": ":::::::::::::::::::::::::::::: "
-        },
-        {
-            "icon": "fa fa-pie-chart",
             "name": "Neurologie",
             "text": "Paralysie faciale - entrapment des nerfs ",
             "text2": "Canal carpien - syndrôme de Menière",
-            "text3": ":::::::::::::::::::::::::::::: "
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Pédiatrie",
-            "text": "Bilan de naissance - nouveaux nés et leur problématique - suivi de croissance et scoliose",
-            "text2": "Puberté et leur problématique des blessures sportives - maux de tête et maux de ventre ",
             "text3": ":::::::::::::::::::::::::::::: "
         },
         {
@@ -101,10 +100,10 @@
             "text3": ":::::::::::::::::::::::::::::: "
         },
         {
-            "icon": "fa fa-language",
-            "name": "Digestion & émotions",
-            "text": "Nos émotions, l'âge, notre alimentation, et les saisons ont un impact sur notre digestion. ",
-            "text2": "Je vous propose un bilan et des conseils alimentaires ( basés sur l'énergie chinoise) et des conseils physiologiques par qi gong, et autres techniques  ",
+            "icon": "fa fa-pie-chart",
+            "name": "Problèmes liés à l'âge ",
+            "text": "Sagesse - vitalité ",
+            "text2": "Sommeil - vieillissement cutané ",
             "text3": ":::::::::::::::::::::::::::::: "
         }
     ],
