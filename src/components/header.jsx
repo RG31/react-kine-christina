@@ -1,3 +1,5 @@
+// new commit to Transfer the repo to a personal account or make the repo public,
+// then push a new commit to send your new repo settings to Netlify
 export const Header = (props) => {
   return (
     <header id='header'>
