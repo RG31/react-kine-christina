@@ -6,6 +6,7 @@ export const Soins = (props) => {
   console.log ("smallerThan768",smallerThan768)
   return (
     <div id='soins' className='text-center'>
+    <div className='overlay'>
       <div className='container'>
         <div className='section-title'>
           <h2>Les soins</h2>
@@ -42,13 +43,13 @@ export const Soins = (props) => {
                         <p>{d.text2}</p>
                         <p>{d.text3}</p>
                     </details>
-                    
-
+                  
                   </div>
                 </div>
               ))
             : 'loading'}
         </div>
+      </div>
       </div>
     </div>
   )

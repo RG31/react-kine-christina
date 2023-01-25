@@ -80,7 +80,7 @@
         },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Dermatologie",
+            "name": "Dermatologie & acu-lifting",
             "text": "Acné - démangeaisons",
             "text2": "Prévention du vieillissement de la peau avec la méthode de soin GUA SHA ( lifting du visage ) ainsi que des séances d'acupuncture ",
             "text3": ":::::::::::::::::::::::::::::: "
@@ -134,6 +134,8 @@
         "ref1" : "DE kinésithérapie diplômé KULeuven Belgique 1987",
         "ref2" : "Ostéopathie Thérapie Manuelle diplômé UL bruxelles 1991",
         "ref3" : "Énergétique Chinoise F.L.E.T.C 2010",
+        "ref4" : "Certificat Acu-lifting du visage 2022",
+
         "facebook": "#accueil",
         "twitter": "#accueil",
         "youtube": "#accueil"

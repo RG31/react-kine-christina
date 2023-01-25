@@ -69,6 +69,14 @@ export const Contact = (props) => {
                   <List.Item className='liste-contact-certif'>{props.data ? props.data.ref3 : 'ref3'}
                   </List.Item> 
                   </h6> {' '}
+
+                  <h6 className='fa fa-graduation-cap'>
+                  <span> </span>
+                  <List.Item className='liste-contact-certif ' >{props.data ? props.data.ref4 : 'ref4'}
+                  </List.Item>
+                  </h6> {' '}
+              
+
                   <h6>  ✅  </h6>
                   <a href="https://www.conseil-national.medecin.fr/sites/default/files/charte_internet_cnom2014.pdf"> Charte des médecins</a>
               </List>

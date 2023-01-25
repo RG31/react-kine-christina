@@ -465,13 +465,20 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Soins Section => SOINS */
 #soins {
   font-family: "CaviarDreams_Bold", "Open Sans", sans-serif;
-  padding: 140px 0;
   background: url(../img/intro-bg.jpg);
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+#soins .container {
+  padding: 140px 0;
+}
+
+#soins .overlay {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 #soins h2 {
@@ -543,7 +550,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #soins .service-desc span {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* ---read more -- */
@@ -993,7 +1000,7 @@ label {
   }
 
   #menu.navbar-default .navbar-nav > li > a {
-    font-size: 10px;
+    font-size: 15px;
     padding: 2px 2px;
   }
 
