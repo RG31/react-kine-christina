@@ -14,9 +14,9 @@ export const Soins = (props) => {
           Je vous accompagne pour prendre soin de vous. </span>
         <div  className='pdf'>
         <span>
-        Plus d'infos sur la COVID-19 👉  
+        Plus d'infos sur "Les soins de la peau" 👉  
         <a 
-        href="https://drive.google.com/file/d/1Yg38PHe56UItKUrbmYBRKYpNqTk8E35b/view?usp=sharing" 
+        href="https://docs.google.com/document/d/1TETDS7zq63xvM5OeEpatwcNJ5fnyk26e/edit?usp=share_link&ouid=113810790521981706575&rtpof=true&sd=true" 
         rel="noreferrer noopener" 
         target="_blank"
         className='btn btn-pdf'
