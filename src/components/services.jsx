@@ -16,7 +16,7 @@ export const Soins = (props) => {
         <span>
         Plus d'infos sur "Les soins de la peau" 👉  
         <a 
-        href="https://docs.google.com/document/d/1TETDS7zq63xvM5OeEpatwcNJ5fnyk26e/edit?usp=share_link&ouid=113810790521981706575&rtpof=true&sd=true" 
+        href="https://drive.google.com/file/d/14IkeMoabkl8R6ddLwj5mPoxOJaGUVnYn/view?usp=share_link"
         rel="noreferrer noopener" 
         target="_blank"
         className='btn btn-pdf'
